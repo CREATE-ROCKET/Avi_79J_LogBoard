@@ -1,0 +1,13 @@
+11:38:27.809 > 
+11:38:27.809 > Brownout detector was triggered
+11:38:27.809 > 
+11:38:27.809 > ets Jul 29 2019 12:21:46
+11:38:27.809 > 
+11:38:27.809 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+11:38:27.809 > configsip: 0, SPIWP:0xee
+11:38:27.809 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+11:38:27.809 > mode:DIO, clock div:2
+11:38:27.809 > load:0x3fff0030,len:1184
+11:38:27.809 > load:0x40078000,len:12776
+11:38:27.809 > load:0x40080400,len:3032
+11:38:27.809 > entry 0x400805e4

@@ -1,0 +1,3782 @@
+15:34:07.939 > ���5
+15:34:07.939 > U�%UjU���I�닗��Ś␂B�␅��e*j␕�e�*�␕�%��U�Hh���V��W-.'HL��SPIWP:0xee
+15:34:07.939 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:07.939 > mode:DIO, clock div:2
+15:34:07.939 > load:0x3fff0030,len:1184
+15:34:07.939 > load:0x40078000,len:12776
+15:34:07.939 > load:0x40080400,len:3032
+15:34:07.939 > entry 0x400805e4
+15:34:08.068 > hello
+15:34:08.070 > hello
+15:34:08.187 > 0,0
+15:34:08.187 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:08.187 > 
+15:34:08.187 > Core  1 register dump:
+15:34:08.187 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:08.187 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:08.187 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:08.187 > A10     : 0x3ffc1414  A11     : 0x05004268  A12     : 0x00000014  A13     : 0x00060023  
+15:34:08.187 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:08.187 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:08.187 > Core  1 was running in ISR context:
+15:34:08.187 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:08.187 > 
+15:34:08.187 > 
+15:34:08.187 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:08.187 > 
+15:34:08.187 > 
+15:34:08.187 > 
+15:34:08.187 > 
+15:34:08.187 > ELF file SHA256: 0000000000000000
+15:34:08.187 > 
+15:34:08.187 > Rebooting...
+15:34:08.187 > ets Jul 29 2019 12:21:46
+15:34:08.187 > 
+15:34:08.187 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:08.187 > configsip: 0, SPIWP:0xee
+15:34:08.187 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:08.187 > mode:DIO, clock div:2
+15:34:08.187 > load:0x3fff0030,len:1184
+15:34:08.187 > load:0x40078000,len:12776
+15:34:08.187 > load:0x40080400,len:3032
+15:34:08.187 > entry 0x400805e4
+15:34:08.317 > hello
+15:34:08.317 > hello
+15:34:08.437 > 0,0
+15:34:08.437 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:08.437 > 
+15:34:08.437 > Core  1 register dump:
+15:34:08.437 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:08.437 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:08.437 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:08.437 > A10     : 0x3ffc1414  A11     : 0x0500927c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:08.437 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:08.437 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:08.437 > Core  1 was running in ISR context:
+15:34:08.437 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:08.437 > 
+15:34:08.437 > 
+15:34:08.437 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:08.437 > 
+15:34:08.437 > 
+15:34:08.437 > 
+15:34:08.437 > 
+15:34:08.437 > ELF file SHA256: 0000000000000000
+15:34:08.437 > 
+15:34:08.437 > Rebooting...
+15:34:08.437 > ets Jul 29 2019 12:21:46
+15:34:08.437 > 
+15:34:08.437 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:08.437 > configsip: 0, SPIWP:0xee
+15:34:08.437 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:08.437 > mode:DIO, clock div:2
+15:34:08.437 > load:0x3fff0030,len:1184
+15:34:08.437 > load:0x40078000,len:12776
+15:34:08.437 > load:0x40080400,len:3032
+15:34:08.437 > entry 0x400805e4
+15:34:08.563 > hello
+15:34:08.563 > hello
+15:34:08.682 > 0,0
+15:34:08.682 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:08.682 > 
+15:34:08.682 > Core  1 register dump:
+15:34:08.682 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:08.682 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:08.682 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:08.682 > A10     : 0x3ffc1414  A11     : 0x05006554  A12     : 0x00000014  A13     : 0x00060023  
+15:34:08.682 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:08.682 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:08.682 > Core  1 was running in ISR context:
+15:34:08.682 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:08.682 > 
+15:34:08.682 > 
+15:34:08.682 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:08.682 > 
+15:34:08.682 > 
+15:34:08.682 > 
+15:34:08.682 > 
+15:34:08.682 > ELF file SHA256: 0000000000000000
+15:34:08.682 > 
+15:34:08.682 > Rebooting...
+15:34:08.682 > ets Jul 29 2019 12:21:46
+15:34:08.682 > 
+15:34:08.682 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:08.682 > configsip: 0, SPIWP:0xee
+15:34:08.682 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:08.682 > mode:DIO, clock div:2
+15:34:08.682 > load:0x3fff0030,len:1184
+15:34:08.682 > load:0x40078000,len:12776
+15:34:08.682 > load:0x40080400,len:3032
+15:34:08.682 > entry 0x400805e4
+15:34:08.812 > hello
+15:34:08.812 > hello
+15:34:08.931 > 0,0
+15:34:08.931 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:08.931 > 
+15:34:08.931 > Core  1 register dump:
+15:34:08.931 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:08.931 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:08.931 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:08.931 > A10     : 0x3ffc1414  A11     : 0x0500b630  A12     : 0x00000014  A13     : 0x00060023  
+15:34:08.931 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:08.931 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:08.931 > Core  1 was running in ISR context:
+15:34:08.931 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:08.931 > 
+15:34:08.931 > 
+15:34:08.931 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:08.931 > 
+15:34:08.931 > 
+15:34:08.931 > 
+15:34:08.931 > 
+15:34:08.931 > ELF file SHA256: 0000000000000000
+15:34:08.931 > 
+15:34:08.931 > Rebooting...
+15:34:08.931 > ets Jul 29 2019 12:21:46
+15:34:08.931 > 
+15:34:08.931 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:08.931 > configsip: 0, SPIWP:0xee
+15:34:08.931 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:08.931 > mode:DIO, clock div:2
+15:34:08.931 > load:0x3fff0030,len:1184
+15:34:08.931 > load:0x40078000,len:12776
+15:34:08.931 > load:0x40080400,len:3032
+15:34:08.931 > entry 0x400805e4
+15:34:09.059 > hello
+15:34:09.059 > hello
+15:34:09.177 > 0,0
+15:34:09.177 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:09.177 > 
+15:34:09.177 > Core  1 register dump:
+15:34:09.177 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:09.177 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:09.177 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:09.177 > A10     : 0x3ffc1414  A11     : 0x050094fc  A12     : 0x00000014  A13     : 0x00060023  
+15:34:09.177 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:09.177 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:09.177 > Core  1 was running in ISR context:
+15:34:09.177 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:09.177 > 
+15:34:09.177 > 
+15:34:09.177 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:09.177 > 
+15:34:09.177 > 
+15:34:09.177 > 
+15:34:09.177 > 
+15:34:09.177 > ELF file SHA256: 0000000000000000
+15:34:09.177 > 
+15:34:09.177 > Rebooting...
+15:34:09.177 > ets Jul 29 2019 12:21:46
+15:34:09.177 > 
+15:34:09.177 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:09.177 > configsip: 0, SPIWP:0xee
+15:34:09.177 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:09.177 > mode:DIO, clock div:2
+15:34:09.177 > load:0x3fff0030,len:1184
+15:34:09.177 > load:0x40078000,len:12776
+15:34:09.177 > load:0x40080400,len:3032
+15:34:09.177 > entry 0x400805e4
+15:34:09.303 > hello
+15:34:09.307 > hello
+15:34:09.424 > 0,0
+15:34:09.424 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:09.424 > 
+15:34:09.424 > Core  1 register dump:
+15:34:09.424 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:09.424 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:09.424 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:09.424 > A10     : 0x3ffc1414  A11     : 0x05005bf4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:09.424 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:09.424 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:09.424 > Core  1 was running in ISR context:
+15:34:09.424 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:09.424 > 
+15:34:09.424 > 
+15:34:09.424 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:09.424 > 
+15:34:09.424 > 
+15:34:09.424 > 
+15:34:09.424 > 
+15:34:09.424 > ELF file SHA256: 0000000000000000
+15:34:09.424 > 
+15:34:09.424 > Rebooting...
+15:34:09.424 > ets Jul 29 2019 12:21:46
+15:34:09.424 > 
+15:34:09.424 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:09.424 > configsip: 0, SPIWP:0xee
+15:34:09.424 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:09.424 > mode:DIO, clock div:2
+15:34:09.424 > load:0x3fff0030,len:1184
+15:34:09.424 > load:0x40078000,len:12776
+15:34:09.424 > load:0x40080400,len:3032
+15:34:09.424 > entry 0x400805e4
+15:34:09.553 > hello
+15:34:09.553 > hello
+15:34:09.672 > 0,0
+15:34:09.672 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:09.672 > 
+15:34:09.672 > Core  1 register dump:
+15:34:09.672 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:09.672 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:09.672 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:09.672 > A10     : 0x3ffc1414  A11     : 0x05004434  A12     : 0x00000014  A13     : 0x00060023  
+15:34:09.672 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:09.672 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:09.672 > Core  1 was running in ISR context:
+15:34:09.672 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:09.672 > 
+15:34:09.672 > 
+15:34:09.672 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:09.672 > 
+15:34:09.672 > 
+15:34:09.672 > 
+15:34:09.672 > 
+15:34:09.672 > ELF file SHA256: 0000000000000000
+15:34:09.672 > 
+15:34:09.672 > Rebooting...
+15:34:09.672 > ets Jul 29 2019 12:21:46
+15:34:09.672 > 
+15:34:09.672 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:09.672 > configsip: 0, SPIWP:0xee
+15:34:09.672 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:09.672 > mode:DIO, clock div:2
+15:34:09.672 > load:0x3fff0030,len:1184
+15:34:09.672 > load:0x40078000,len:12776
+15:34:09.672 > load:0x40080400,len:3032
+15:34:09.672 > entry 0x400805e4
+15:34:09.798 > hello
+15:34:09.798 > hello
+15:34:09.920 > 0,0
+15:34:09.921 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:09.921 > 
+15:34:09.921 > Core  1 register dump:
+15:34:09.921 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:09.921 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:09.921 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:09.921 > A10     : 0x3ffc1414  A11     : 0x05008f0c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:09.921 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:09.921 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:09.921 > Core  1 was running in ISR context:
+15:34:09.921 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:09.921 > 
+15:34:09.921 > 
+15:34:09.921 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:09.921 > 
+15:34:09.921 > 
+15:34:09.921 > 
+15:34:09.921 > 
+15:34:09.921 > ELF file SHA256: 0000000000000000
+15:34:09.921 > 
+15:34:09.921 > Rebooting...
+15:34:09.921 > ets Jul 29 2019 12:21:46
+15:34:09.921 > 
+15:34:09.921 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:09.921 > configsip: 0, SPIWP:0xee
+15:34:09.921 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:09.921 > mode:DIO, clock div:2
+15:34:09.921 > load:0x3fff0030,len:1184
+15:34:09.921 > load:0x40078000,len:12776
+15:34:09.921 > load:0x40080400,len:3032
+15:34:09.921 > entry 0x400805e4
+15:34:10.047 > hello
+15:34:10.047 > hello
+15:34:10.167 > 0,0
+15:34:10.167 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:10.167 > 
+15:34:10.167 > Core  1 register dump:
+15:34:10.167 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:10.167 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:10.167 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:10.167 > A10     : 0x3ffc1414  A11     : 0x05009bc8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:10.167 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:10.167 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:10.167 > Core  1 was running in ISR context:
+15:34:10.167 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:10.167 > 
+15:34:10.167 > 
+15:34:10.167 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:10.167 > 
+15:34:10.167 > 
+15:34:10.167 > 
+15:34:10.167 > 
+15:34:10.167 > ELF file SHA256: 0000000000000000
+15:34:10.167 > 
+15:34:10.167 > Rebooting...
+15:34:10.167 > ets Jul 29 2019 12:21:46
+15:34:10.167 > 
+15:34:10.167 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:10.167 > configsip: 0, SPIWP:0xee
+15:34:10.167 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:10.167 > mode:DIO, clock div:2
+15:34:10.167 > load:0x3fff0030,len:1184
+15:34:10.167 > load:0x40078000,len:12776
+15:34:10.167 > load:0x40080400,len:3032
+15:34:10.167 > entry 0x400805e4
+15:34:10.293 > hello
+15:34:10.293 > hello
+15:34:10.414 > 0,0
+15:34:10.414 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:10.414 > 
+15:34:10.414 > Core  1 register dump:
+15:34:10.414 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:10.414 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:10.414 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:10.414 > A10     : 0x3ffc1414  A11     : 0x050044fc  A12     : 0x00000014  A13     : 0x00060023  
+15:34:10.414 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:10.414 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:10.414 > Core  1 was running in ISR context:
+15:34:10.414 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:10.414 > 
+15:34:10.414 > 
+15:34:10.414 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:10.414 > 
+15:34:10.414 > 
+15:34:10.414 > 
+15:34:10.414 > 
+15:34:10.414 > ELF file SHA256: 0000000000000000
+15:34:10.414 > 
+15:34:10.414 > Rebooting...
+15:34:10.414 > ets Jul 29 2019 12:21:46
+15:34:10.414 > 
+15:34:10.414 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:10.414 > configsip: 0, SPIWP:0xee
+15:34:10.414 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:10.414 > mode:DIO, clock div:2
+15:34:10.414 > load:0x3fff0030,len:1184
+15:34:10.414 > load:0x40078000,len:12776
+15:34:10.414 > load:0x40080400,len:3032
+15:34:10.414 > entry 0x400805e4
+15:34:10.541 > hello
+15:34:10.543 > hello
+15:34:10.661 > 0,0
+15:34:10.661 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:10.661 > 
+15:34:10.661 > Core  1 register dump:
+15:34:10.661 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:10.661 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:10.661 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:10.661 > A10     : 0x3ffc1414  A11     : 0x0500c148  A12     : 0x00000014  A13     : 0x00060023  
+15:34:10.661 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:10.661 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:10.661 > Core  1 was running in ISR context:
+15:34:10.661 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:10.661 > 
+15:34:10.661 > 
+15:34:10.661 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:10.661 > 
+15:34:10.661 > 
+15:34:10.661 > 
+15:34:10.661 > 
+15:34:10.661 > ELF file SHA256: 0000000000000000
+15:34:10.661 > 
+15:34:10.661 > Rebooting...
+15:34:10.661 > ets Jul 29 2019 12:21:46
+15:34:10.661 > 
+15:34:10.661 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:10.661 > configsip: 0, SPIWP:0xee
+15:34:10.661 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:10.661 > mode:DIO, clock div:2
+15:34:10.661 > load:0x3fff0030,len:1184
+15:34:10.661 > load:0x40078000,len:12776
+15:34:10.661 > load:0x40080400,len:3032
+15:34:10.661 > entry 0x400805e4
+15:34:10.789 > hello
+15:34:10.789 > hello
+15:34:10.909 > 0,0
+15:34:10.909 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:10.909 > 
+15:34:10.909 > Core  1 register dump:
+15:34:10.909 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:10.909 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:10.909 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:10.909 > A10     : 0x3ffc1414  A11     : 0x050089f8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:10.909 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:10.909 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:10.909 > Core  1 was running in ISR context:
+15:34:10.909 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:10.909 > 
+15:34:10.909 > 
+15:34:10.909 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:10.909 > 
+15:34:10.909 > 
+15:34:10.909 > 
+15:34:10.909 > 
+15:34:10.909 > ELF file SHA256: 0000000000000000
+15:34:10.909 > 
+15:34:10.909 > Rebooting...
+15:34:10.909 > ets Jul 29 2019 12:21:46
+15:34:10.909 > 
+15:34:10.909 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:10.909 > configsip: 0, SPIWP:0xee
+15:34:10.909 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:10.909 > mode:DIO, clock div:2
+15:34:10.909 > load:0x3fff0030,len:1184
+15:34:10.909 > load:0x40078000,len:12776
+15:34:10.909 > load:0x40080400,len:3032
+15:34:10.909 > entry 0x400805e4
+15:34:11.037 > hello
+15:34:11.037 > hello
+15:34:11.157 > 0,0
+15:34:11.157 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:11.157 > 
+15:34:11.157 > Core  1 register dump:
+15:34:11.157 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:11.157 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:11.157 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:11.157 > A10     : 0x3ffc1414  A11     : 0x0500b11c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:11.157 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:11.157 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:11.157 > Core  1 was running in ISR context:
+15:34:11.157 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:11.157 > 
+15:34:11.157 > 
+15:34:11.157 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:11.157 > 
+15:34:11.157 > 
+15:34:11.157 > 
+15:34:11.157 > 
+15:34:11.157 > ELF file SHA256: 0000000000000000
+15:34:11.157 > 
+15:34:11.157 > Rebooting...
+15:34:11.157 > ets Jul 29 2019 12:21:46
+15:34:11.157 > 
+15:34:11.157 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:11.157 > configsip: 0, SPIWP:0xee
+15:34:11.157 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:11.157 > mode:DIO, clock div:2
+15:34:11.157 > load:0x3fff0030,len:1184
+15:34:11.157 > load:0x40078000,len:12776
+15:34:11.157 > load:0x40080400,len:3032
+15:34:11.157 > entry 0x400805e4
+15:34:11.282 > hello
+15:34:11.282 > hello
+15:34:11.405 > 0,0
+15:34:11.405 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:11.405 > 
+15:34:11.405 > Core  1 register dump:
+15:34:11.405 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:11.405 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:11.405 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:11.405 > A10     : 0x3ffc1414  A11     : 0x050067e8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:11.405 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:11.405 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:11.405 > Core  1 was running in ISR context:
+15:34:11.405 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:11.405 > 
+15:34:11.405 > 
+15:34:11.405 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:11.405 > 
+15:34:11.405 > 
+15:34:11.405 > 
+15:34:11.405 > 
+15:34:11.405 > ELF file SHA256: 0000000000000000
+15:34:11.405 > 
+15:34:11.405 > Rebooting...
+15:34:11.405 > ets Jul 29 2019 12:21:46
+15:34:11.405 > 
+15:34:11.405 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:11.405 > configsip: 0, SPIWP:0xee
+15:34:11.405 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:11.405 > mode:DIO, clock div:2
+15:34:11.405 > load:0x3fff0030,len:1184
+15:34:11.405 > load:0x40078000,len:12776
+15:34:11.405 > load:0x40080400,len:3032
+15:34:11.405 > entry 0x400805e4
+15:34:11.533 > hello
+15:34:11.533 > hello
+15:34:11.650 > 0,0
+15:34:11.650 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:11.650 > 
+15:34:11.650 > Core  1 register dump:
+15:34:11.650 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:11.650 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:11.650 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:11.650 > A10     : 0x3ffc1414  A11     : 0x05009bc8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:11.650 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:11.650 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:11.650 > Core  1 was running in ISR context:
+15:34:11.650 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:11.650 > 
+15:34:11.650 > 
+15:34:11.650 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:11.650 > 
+15:34:11.650 > 
+15:34:11.650 > 
+15:34:11.650 > 
+15:34:11.650 > ELF file SHA256: 0000000000000000
+15:34:11.650 > 
+15:34:11.650 > Rebooting...
+15:34:11.650 > ets Jul 29 2019 12:21:46
+15:34:11.650 > 
+15:34:11.650 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:11.650 > configsip: 0, SPIWP:0xee
+15:34:11.650 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:11.650 > mode:DIO, clock div:2
+15:34:11.650 > load:0x3fff0030,len:1184
+15:34:11.650 > load:0x40078000,len:12776
+15:34:11.650 > load:0x40080400,len:3032
+15:34:11.650 > entry 0x400805e4
+15:34:11.779 > hello
+15:34:11.779 > hello
+15:34:11.899 > 0,0
+15:34:11.899 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:11.899 > 
+15:34:11.899 > Core  1 register dump:
+15:34:11.899 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:11.899 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:11.899 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:11.899 > A10     : 0x3ffc1414  A11     : 0x05005a50  A12     : 0x00000014  A13     : 0x00060023  
+15:34:11.899 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:11.899 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:11.899 > Core  1 was running in ISR context:
+15:34:11.899 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:11.899 > 
+15:34:11.899 > 
+15:34:11.899 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:11.899 > 
+15:34:11.899 > 
+15:34:11.899 > 
+15:34:11.899 > 
+15:34:11.899 > ELF file SHA256: 0000000000000000
+15:34:11.899 > 
+15:34:11.899 > Rebooting...
+15:34:11.899 > ets Jul 29 2019 12:21:46
+15:34:11.899 > 
+15:34:11.899 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:11.899 > configsip: 0, SPIWP:0xee
+15:34:11.899 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:11.899 > mode:DIO, clock div:2
+15:34:11.899 > load:0x3fff0030,len:1184
+15:34:11.899 > load:0x40078000,len:12776
+15:34:11.899 > load:0x40080400,len:3032
+15:34:11.899 > entry 0x400805e4
+15:34:12.025 > hello
+15:34:12.025 > hello
+15:34:12.146 > 0,0
+15:34:12.146 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:12.146 > 
+15:34:12.146 > Core  1 register dump:
+15:34:12.146 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:12.146 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:12.146 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:12.146 > A10     : 0x3ffc1414  A11     : 0x05005dac  A12     : 0x00000014  A13     : 0x00060023  
+15:34:12.146 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:12.146 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:12.146 > Core  1 was running in ISR context:
+15:34:12.146 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:12.146 > 
+15:34:12.146 > 
+15:34:12.146 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:12.146 > 
+15:34:12.146 > 
+15:34:12.146 > 
+15:34:12.146 > 
+15:34:12.146 > ELF file SHA256: 0000000000000000
+15:34:12.146 > 
+15:34:12.146 > Rebooting...
+15:34:12.146 > ets Jul 29 2019 12:21:46
+15:34:12.146 > 
+15:34:12.146 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:12.146 > configsip: 0, SPIWP:0xee
+15:34:12.146 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:12.146 > mode:DIO, clock div:2
+15:34:12.146 > load:0x3fff0030,len:1184
+15:34:12.146 > load:0x40078000,len:12776
+15:34:12.146 > load:0x40080400,len:3032
+15:34:12.146 > entry 0x400805e4
+15:34:12.271 > hello
+15:34:12.271 > hello
+15:34:12.391 > 0,0
+15:34:12.391 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:12.391 > 
+15:34:12.391 > Core  1 register dump:
+15:34:12.391 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:12.391 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:12.391 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:12.391 > A10     : 0x3ffc1414  A11     : 0x05006c34  A12     : 0x00000014  A13     : 0x00060023  
+15:34:12.391 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:12.391 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:12.391 > Core  1 was running in ISR context:
+15:34:12.391 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:12.391 > 
+15:34:12.391 > 
+15:34:12.391 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:12.391 > 
+15:34:12.391 > 
+15:34:12.391 > 
+15:34:12.391 > 
+15:34:12.391 > ELF file SHA256: 0000000000000000
+15:34:12.391 > 
+15:34:12.391 > Rebooting...
+15:34:12.391 > ets Jul 29 2019 12:21:46
+15:34:12.391 > 
+15:34:12.391 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:12.391 > configsip: 0, SPIWP:0xee
+15:34:12.391 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:12.391 > mode:DIO, clock div:2
+15:34:12.391 > load:0x3fff0030,len:1184
+15:34:12.391 > load:0x40078000,len:12776
+15:34:12.391 > load:0x40080400,len:3032
+15:34:12.391 > entry 0x400805e4
+15:34:12.520 > hello
+15:34:12.520 > hello
+15:34:12.640 > 0,0
+15:34:12.640 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:12.640 > 
+15:34:12.640 > Core  1 register dump:
+15:34:12.640 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:12.640 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:12.640 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:12.640 > A10     : 0x3ffc1414  A11     : 0x05008e44  A12     : 0x00000014  A13     : 0x00060023  
+15:34:12.640 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:12.640 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:12.640 > Core  1 was running in ISR context:
+15:34:12.640 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:12.640 > 
+15:34:12.640 > 
+15:34:12.640 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:12.640 > 
+15:34:12.640 > 
+15:34:12.640 > 
+15:34:12.640 > 
+15:34:12.640 > ELF file SHA256: 0000000000000000
+15:34:12.640 > 
+15:34:12.640 > Rebooting...
+15:34:12.640 > ets Jul 29 2019 12:21:46
+15:34:12.640 > 
+15:34:12.640 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:12.640 > configsip: 0, SPIWP:0xee
+15:34:12.640 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:12.640 > mode:DIO, clock div:2
+15:34:12.640 > load:0x3fff0030,len:1184
+15:34:12.640 > load:0x40078000,len:12776
+15:34:12.640 > load:0x40080400,len:3032
+15:34:12.640 > entry 0x400805e4
+15:34:12.767 > hello
+15:34:12.767 > hello
+15:34:12.887 > 0,0
+15:34:12.889 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:12.889 > 
+15:34:12.889 > Core  1 register dump:
+15:34:12.889 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:12.889 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:12.889 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:12.889 > A10     : 0x3ffc1414  A11     : 0x050083f4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:12.889 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:12.889 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:12.889 > Core  1 was running in ISR context:
+15:34:12.889 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:12.889 > 
+15:34:12.889 > 
+15:34:12.889 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:12.889 > 
+15:34:12.889 > 
+15:34:12.889 > 
+15:34:12.889 > 
+15:34:12.889 > ELF file SHA256: 0000000000000000
+15:34:12.889 > 
+15:34:12.889 > Rebooting...
+15:34:12.889 > ets Jul 29 2019 12:21:46
+15:34:12.889 > 
+15:34:12.889 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:12.889 > configsip: 0, SPIWP:0xee
+15:34:12.889 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:12.889 > mode:DIO, clock div:2
+15:34:12.889 > load:0x3fff0030,len:1184
+15:34:12.889 > load:0x40078000,len:12776
+15:34:12.889 > load:0x40080400,len:3032
+15:34:12.889 > entry 0x400805e4
+15:34:13.016 > hello
+15:34:13.016 > hello
+15:34:13.136 > 0,0
+15:34:13.136 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:13.136 > 
+15:34:13.136 > Core  1 register dump:
+15:34:13.136 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:13.136 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:13.136 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:13.136 > A10     : 0x3ffc1414  A11     : 0x05006dec  A12     : 0x00000014  A13     : 0x00060023  
+15:34:13.136 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:13.136 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:13.136 > Core  1 was running in ISR context:
+15:34:13.136 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:13.136 > 
+15:34:13.136 > 
+15:34:13.136 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:13.136 > 
+15:34:13.136 > 
+15:34:13.136 > 
+15:34:13.136 > 
+15:34:13.136 > ELF file SHA256: 0000000000000000
+15:34:13.136 > 
+15:34:13.136 > Rebooting...
+15:34:13.136 > ets Jul 29 2019 12:21:46
+15:34:13.136 > 
+15:34:13.136 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:13.136 > configsip: 0, SPIWP:0xee
+15:34:13.136 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:13.136 > mode:DIO, clock div:2
+15:34:13.136 > load:0x3fff0030,len:1184
+15:34:13.136 > load:0x40078000,len:12776
+15:34:13.136 > load:0x40080400,len:3032
+15:34:13.136 > entry 0x400805e4
+15:34:13.264 > hello
+15:34:13.264 > hello
+15:34:13.383 > 0,0
+15:34:13.383 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:13.383 > 
+15:34:13.383 > Core  1 register dump:
+15:34:13.383 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:13.383 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:13.383 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:13.383 > A10     : 0x3ffc1414  A11     : 0x0500a2a8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:13.383 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:13.383 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:13.383 > Core  1 was running in ISR context:
+15:34:13.383 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:13.383 > 
+15:34:13.383 > 
+15:34:13.383 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:13.383 > 
+15:34:13.383 > 
+15:34:13.383 > 
+15:34:13.383 > 
+15:34:13.383 > ELF file SHA256: 0000000000000000
+15:34:13.383 > 
+15:34:13.383 > Rebooting...
+15:34:13.383 > ets Jul 29 2019 12:21:46
+15:34:13.383 > 
+15:34:13.383 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:13.383 > configsip: 0, SPIWP:0xee
+15:34:13.383 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:13.383 > mode:DIO, clock div:2
+15:34:13.383 > load:0x3fff0030,len:1184
+15:34:13.383 > load:0x40078000,len:12776
+15:34:13.383 > load:0x40080400,len:3032
+15:34:13.383 > entry 0x400805e4
+15:34:13.511 > hello
+15:34:13.511 > hello
+15:34:13.631 > 0,0
+15:34:13.631 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:13.631 > 
+15:34:13.631 > Core  1 register dump:
+15:34:13.631 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:13.631 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:13.631 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:13.631 > A10     : 0x3ffc1414  A11     : 0x050051b8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:13.631 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:13.631 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:13.631 > Core  1 was running in ISR context:
+15:34:13.631 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:13.631 > 
+15:34:13.631 > 
+15:34:13.631 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:13.631 > 
+15:34:13.631 > 
+15:34:13.631 > 
+15:34:13.631 > 
+15:34:13.631 > ELF file SHA256: 0000000000000000
+15:34:13.631 > 
+15:34:13.631 > Rebooting...
+15:34:13.631 > ets Jul 29 2019 12:21:46
+15:34:13.631 > 
+15:34:13.631 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:13.631 > configsip: 0, SPIWP:0xee
+15:34:13.631 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:13.631 > mode:DIO, clock div:2
+15:34:13.631 > load:0x3fff0030,len:1184
+15:34:13.631 > load:0x40078000,len:12776
+15:34:13.631 > load:0x40080400,len:3032
+15:34:13.631 > entry 0x400805e4
+15:34:13.758 > hello
+15:34:13.758 > hello
+15:34:13.876 > 0,0
+15:34:13.876 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:13.876 > 
+15:34:13.876 > Core  1 register dump:
+15:34:13.876 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:13.876 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:13.876 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:13.876 > A10     : 0x3ffc1414  A11     : 0x050073c8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:13.876 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:13.876 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:13.876 > Core  1 was running in ISR context:
+15:34:13.876 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:13.876 > 
+15:34:13.876 > 
+15:34:13.876 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:13.876 > 
+15:34:13.876 > 
+15:34:13.876 > 
+15:34:13.876 > 
+15:34:13.876 > ELF file SHA256: 0000000000000000
+15:34:13.876 > 
+15:34:13.876 > Rebooting...
+15:34:13.876 > ets Jul 29 2019 12:21:46
+15:34:13.876 > 
+15:34:13.876 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:13.876 > configsip: 0, SPIWP:0xee
+15:34:13.876 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:13.876 > mode:DIO, clock div:2
+15:34:13.876 > load:0x3fff0030,len:1184
+15:34:13.876 > load:0x40078000,len:12776
+15:34:13.876 > load:0x40080400,len:3032
+15:34:13.876 > entry 0x400805e4
+15:34:14.006 > hello
+15:34:14.006 > hello
+15:34:14.126 > 0,0
+15:34:14.126 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:14.126 > 
+15:34:14.126 > Core  1 register dump:
+15:34:14.126 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:14.126 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:14.126 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:14.126 > A10     : 0x3ffc1414  A11     : 0x05009434  A12     : 0x00000014  A13     : 0x00060023  
+15:34:14.126 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:14.126 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:14.126 > Core  1 was running in ISR context:
+15:34:14.126 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:14.126 > 
+15:34:14.126 > 
+15:34:14.126 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:14.126 > 
+15:34:14.126 > 
+15:34:14.126 > 
+15:34:14.126 > 
+15:34:14.126 > ELF file SHA256: 0000000000000000
+15:34:14.126 > 
+15:34:14.126 > Rebooting...
+15:34:14.126 > ets Jul 29 2019 12:21:46
+15:34:14.126 > 
+15:34:14.126 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:14.126 > configsip: 0, SPIWP:0xee
+15:34:14.126 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:14.126 > mode:DIO, clock div:2
+15:34:14.126 > load:0x3fff0030,len:1184
+15:34:14.126 > load:0x40078000,len:12776
+15:34:14.126 > load:0x40080400,len:3032
+15:34:14.126 > entry 0x400805e4
+15:34:14.252 > hello
+15:34:14.252 > hello
+15:34:14.372 > 0,0
+15:34:14.373 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:14.373 > 
+15:34:14.373 > Core  1 register dump:
+15:34:14.373 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:14.373 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:14.373 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:14.373 > A10     : 0x3ffc1414  A11     : 0x050052a8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:14.373 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:14.373 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:14.373 > Core  1 was running in ISR context:
+15:34:14.373 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:14.373 > 
+15:34:14.373 > 
+15:34:14.373 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:14.373 > 
+15:34:14.373 > 
+15:34:14.373 > 
+15:34:14.373 > 
+15:34:14.373 > ELF file SHA256: 0000000000000000
+15:34:14.373 > 
+15:34:14.373 > Rebooting...
+15:34:14.373 > ets Jul 29 2019 12:21:46
+15:34:14.373 > 
+15:34:14.373 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:14.373 > configsip: 0, SPIWP:0xee
+15:34:14.373 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:14.373 > mode:DIO, clock div:2
+15:34:14.373 > load:0x3fff0030,len:1184
+15:34:14.373 > load:0x40078000,len:12776
+15:34:14.373 > load:0x40080400,len:3032
+15:34:14.373 > entry 0x400805e4
+15:34:14.499 > hello
+15:34:14.499 > hello
+15:34:14.618 > 0,0
+15:34:14.618 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:14.618 > 
+15:34:14.618 > Core  1 register dump:
+15:34:14.618 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:14.618 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:14.618 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:14.618 > A10     : 0x3ffc1414  A11     : 0x05003d54  A12     : 0x00000014  A13     : 0x00060023  
+15:34:14.618 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:14.618 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:14.618 > Core  1 was running in ISR context:
+15:34:14.618 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:14.618 > 
+15:34:14.618 > 
+15:34:14.618 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:14.618 > 
+15:34:14.618 > 
+15:34:14.618 > 
+15:34:14.618 > 
+15:34:14.618 > ELF file SHA256: 0000000000000000
+15:34:14.618 > 
+15:34:14.618 > Rebooting...
+15:34:14.618 > ets Jul 29 2019 12:21:46
+15:34:14.618 > 
+15:34:14.618 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:14.618 > configsip: 0, SPIWP:0xee
+15:34:14.618 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:14.618 > mode:DIO, clock div:2
+15:34:14.618 > load:0x3fff0030,len:1184
+15:34:14.618 > load:0x40078000,len:12776
+15:34:14.618 > load:0x40080400,len:3032
+15:34:14.618 > entry 0x400805e4
+15:34:14.746 > hello
+15:34:14.749 > hello
+15:34:14.865 > 0,0
+15:34:14.865 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:14.865 > 
+15:34:14.865 > Core  1 register dump:
+15:34:14.865 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:14.865 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:14.865 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:14.865 > A10     : 0x3ffc1414  A11     : 0x05009434  A12     : 0x00000014  A13     : 0x00060023  
+15:34:14.865 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:14.865 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:14.865 > Core  1 was running in ISR context:
+15:34:14.865 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:14.865 > 
+15:34:14.865 > 
+15:34:14.865 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:14.865 > 
+15:34:14.865 > 
+15:34:14.865 > 
+15:34:14.865 > 
+15:34:14.865 > ELF file SHA256: 0000000000000000
+15:34:14.865 > 
+15:34:14.865 > Rebooting...
+15:34:14.865 > ets Jul 29 2019 12:21:46
+15:34:14.865 > 
+15:34:14.865 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:14.865 > configsip: 0, SPIWP:0xee
+15:34:14.865 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:14.865 > mode:DIO, clock div:2
+15:34:14.865 > load:0x3fff0030,len:1184
+15:34:14.865 > load:0x40078000,len:12776
+15:34:14.865 > load:0x40080400,len:3032
+15:34:14.865 > entry 0x400805e4
+15:34:14.995 > hello
+15:34:14.995 > hello
+15:34:15.114 > 0,0
+15:34:15.114 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:15.114 > 
+15:34:15.114 > Core  1 register dump:
+15:34:15.114 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:15.114 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:15.114 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:15.114 > A10     : 0x3ffc1414  A11     : 0x050084d0  A12     : 0x00000014  A13     : 0x00060023  
+15:34:15.114 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:15.114 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:15.114 > Core  1 was running in ISR context:
+15:34:15.114 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:15.114 > 
+15:34:15.114 > 
+15:34:15.114 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:15.114 > 
+15:34:15.114 > 
+15:34:15.114 > 
+15:34:15.114 > 
+15:34:15.114 > ELF file SHA256: 0000000000000000
+15:34:15.114 > 
+15:34:15.114 > Rebooting...
+15:34:15.114 > ets Jul 29 2019 12:21:46
+15:34:15.114 > 
+15:34:15.114 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:15.114 > configsip: 0, SPIWP:0xee
+15:34:15.114 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:15.114 > mode:DIO, clock div:2
+15:34:15.114 > load:0x3fff0030,len:1184
+15:34:15.114 > load:0x40078000,len:12776
+15:34:15.114 > load:0x40080400,len:3032
+15:34:15.114 > entry 0x400805e4
+15:34:15.240 > hello
+15:34:15.244 > hello
+15:34:15.360 > 0,0
+15:34:15.360 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:15.360 > 
+15:34:15.360 > Core  1 register dump:
+15:34:15.360 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:15.360 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:15.360 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:15.360 > A10     : 0x3ffc1414  A11     : 0x0500a974  A12     : 0x00000014  A13     : 0x00060023  
+15:34:15.360 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:15.360 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:15.360 > Core  1 was running in ISR context:
+15:34:15.360 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:15.360 > 
+15:34:15.360 > 
+15:34:15.360 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:15.360 > 
+15:34:15.360 > 
+15:34:15.360 > 
+15:34:15.360 > 
+15:34:15.360 > ELF file SHA256: 0000000000000000
+15:34:15.360 > 
+15:34:15.360 > Rebooting...
+15:34:15.360 > ets Jul 29 2019 12:21:46
+15:34:15.360 > 
+15:34:15.360 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:15.360 > configsip: 0, SPIWP:0xee
+15:34:15.360 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:15.360 > mode:DIO, clock div:2
+15:34:15.360 > load:0x3fff0030,len:1184
+15:34:15.360 > load:0x40078000,len:12776
+15:34:15.360 > load:0x40080400,len:3032
+15:34:15.360 > entry 0x400805e4
+15:34:15.491 > hello
+15:34:15.491 > hello
+15:34:15.607 > 0,0
+15:34:15.607 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:15.607 > 
+15:34:15.607 > Core  1 register dump:
+15:34:15.607 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:15.607 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:15.607 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:15.607 > A10     : 0x3ffc1414  A11     : 0x0500d854  A12     : 0x00000014  A13     : 0x00060023  
+15:34:15.607 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:15.607 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:15.607 > Core  1 was running in ISR context:
+15:34:15.607 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:15.607 > 
+15:34:15.607 > 
+15:34:15.607 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:15.607 > 
+15:34:15.607 > 
+15:34:15.607 > 
+15:34:15.607 > 
+15:34:15.607 > ELF file SHA256: 0000000000000000
+15:34:15.607 > 
+15:34:15.607 > Rebooting...
+15:34:15.607 > ets Jul 29 2019 12:21:46
+15:34:15.607 > 
+15:34:15.607 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:15.607 > configsip: 0, SPIWP:0xee
+15:34:15.607 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:15.607 > mode:DIO, clock div:2
+15:34:15.607 > load:0x3fff0030,len:1184
+15:34:15.607 > load:0x40078000,len:12776
+15:34:15.607 > load:0x40080400,len:3032
+15:34:15.607 > entry 0x400805e4
+15:34:15.738 > hello
+15:34:15.738 > hello
+15:34:15.857 > 0,0
+15:34:15.857 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:15.857 > 
+15:34:15.857 > Core  1 register dump:
+15:34:15.857 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:15.857 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:15.857 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:15.857 > A10     : 0x3ffc1414  A11     : 0x05008840  A12     : 0x00000014  A13     : 0x00060023  
+15:34:15.857 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:15.857 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:15.857 > Core  1 was running in ISR context:
+15:34:15.857 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:15.857 > 
+15:34:15.857 > 
+15:34:15.857 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:15.857 > 
+15:34:15.857 > 
+15:34:15.857 > 
+15:34:15.857 > 
+15:34:15.857 > ELF file SHA256: 0000000000000000
+15:34:15.857 > 
+15:34:15.857 > Rebooting...
+15:34:15.857 > ets Jul 29 2019 12:21:46
+15:34:15.857 > 
+15:34:15.857 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:15.857 > configsip: 0, SPIWP:0xee
+15:34:15.857 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:15.857 > mode:DIO, clock div:2
+15:34:15.857 > load:0x3fff0030,len:1184
+15:34:15.857 > load:0x40078000,len:12776
+15:34:15.857 > load:0x40080400,len:3032
+15:34:15.857 > entry 0x400805e4
+15:34:15.984 > hello
+15:34:15.984 > hello
+15:34:16.104 > 0,0
+15:34:16.104 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:16.104 > 
+15:34:16.104 > Core  1 register dump:
+15:34:16.104 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:16.104 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:16.104 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:16.104 > A10     : 0x3ffc1414  A11     : 0x050034e4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:16.104 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:16.104 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:16.104 > Core  1 was running in ISR context:
+15:34:16.104 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:16.104 > 
+15:34:16.104 > 
+15:34:16.104 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:16.104 > 
+15:34:16.104 > 
+15:34:16.104 > 
+15:34:16.104 > 
+15:34:16.104 > ELF file SHA256: 0000000000000000
+15:34:16.104 > 
+15:34:16.104 > Rebooting...
+15:34:16.104 > ets Jul 29 2019 12:21:46
+15:34:16.104 > 
+15:34:16.104 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:16.104 > configsip: 0, SPIWP:0xee
+15:34:16.104 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:16.104 > mode:DIO, clock div:2
+15:34:16.104 > load:0x3fff0030,len:1184
+15:34:16.104 > load:0x40078000,len:12776
+15:34:16.104 > load:0x40080400,len:3032
+15:34:16.104 > entry 0x400805e4
+15:34:16.233 > hello
+15:34:16.233 > hello
+15:34:16.350 > 0,0
+15:34:16.350 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:16.350 > 
+15:34:16.350 > Core  1 register dump:
+15:34:16.350 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:16.350 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:16.350 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:16.350 > A10     : 0x3ffc1414  A11     : 0x05009b00  A12     : 0x00000014  A13     : 0x00060023  
+15:34:16.350 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:16.350 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:16.350 > Core  1 was running in ISR context:
+15:34:16.350 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:16.350 > 
+15:34:16.350 > 
+15:34:16.350 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:16.350 > 
+15:34:16.350 > 
+15:34:16.350 > 
+15:34:16.350 > 
+15:34:16.350 > ELF file SHA256: 0000000000000000
+15:34:16.350 > 
+15:34:16.350 > Rebooting...
+15:34:16.350 > ets Jul 29 2019 12:21:46
+15:34:16.350 > 
+15:34:16.350 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:16.350 > configsip: 0, SPIWP:0xee
+15:34:16.350 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:16.350 > mode:DIO, clock div:2
+15:34:16.350 > load:0x3fff0030,len:1184
+15:34:16.350 > load:0x40078000,len:12776
+15:34:16.350 > load:0x40080400,len:3032
+15:34:16.350 > entry 0x400805e4
+15:34:16.479 > hello
+15:34:16.479 > hello
+15:34:16.600 > 0,0
+15:34:16.600 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:16.600 > 
+15:34:16.600 > Core  1 register dump:
+15:34:16.600 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:16.600 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:16.600 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:16.600 > A10     : 0x3ffc1414  A11     : 0x050085ac  A12     : 0x00000014  A13     : 0x00060023  
+15:34:16.600 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:16.600 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:16.600 > Core  1 was running in ISR context:
+15:34:16.600 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:16.600 > 
+15:34:16.600 > 
+15:34:16.600 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:16.600 > 
+15:34:16.600 > 
+15:34:16.600 > 
+15:34:16.600 > 
+15:34:16.600 > ELF file SHA256: 0000000000000000
+15:34:16.600 > 
+15:34:16.600 > Rebooting...
+15:34:16.600 > ets Jul 29 2019 12:21:46
+15:34:16.600 > 
+15:34:16.600 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:16.600 > configsip: 0, SPIWP:0xee
+15:34:16.600 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:16.600 > mode:DIO, clock div:2
+15:34:16.600 > load:0x3fff0030,len:1184
+15:34:16.600 > load:0x40078000,len:12776
+15:34:16.600 > load:0x40080400,len:3032
+15:34:16.600 > entry 0x400805e4
+15:34:16.726 > hello
+15:34:16.726 > hello
+15:34:16.846 > 0,0
+15:34:16.847 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:16.847 > 
+15:34:16.847 > Core  1 register dump:
+15:34:16.847 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:16.847 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:16.847 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:16.847 > A10     : 0x3ffc1414  A11     : 0x05008840  A12     : 0x00000014  A13     : 0x00060023  
+15:34:16.847 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:16.847 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:16.847 > Core  1 was running in ISR context:
+15:34:16.847 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:16.847 > 
+15:34:16.847 > 
+15:34:16.847 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:16.847 > 
+15:34:16.847 > 
+15:34:16.847 > 
+15:34:16.847 > 
+15:34:16.847 > ELF file SHA256: 0000000000000000
+15:34:16.847 > 
+15:34:16.847 > Rebooting...
+15:34:16.847 > ets Jul 29 2019 12:21:46
+15:34:16.847 > 
+15:34:16.847 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:16.847 > configsip: 0, SPIWP:0xee
+15:34:16.847 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:16.847 > mode:DIO, clock div:2
+15:34:16.847 > load:0x3fff0030,len:1184
+15:34:16.847 > load:0x40078000,len:12776
+15:34:16.847 > load:0x40080400,len:3032
+15:34:16.847 > entry 0x400805e4
+15:34:16.972 > hello
+15:34:16.975 > hello
+15:34:17.094 > 0,0
+15:34:17.094 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:17.094 > 
+15:34:17.094 > Core  1 register dump:
+15:34:17.094 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:17.094 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:17.094 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:17.094 > A10     : 0x3ffc1414  A11     : 0x0500c148  A12     : 0x00000014  A13     : 0x00060023  
+15:34:17.094 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:17.094 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:17.094 > Core  1 was running in ISR context:
+15:34:17.094 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:17.094 > 
+15:34:17.094 > 
+15:34:17.094 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:17.094 > 
+15:34:17.094 > 
+15:34:17.094 > 
+15:34:17.094 > 
+15:34:17.094 > ELF file SHA256: 0000000000000000
+15:34:17.094 > 
+15:34:17.094 > Rebooting...
+15:34:17.094 > ets Jul 29 2019 12:21:46
+15:34:17.094 > 
+15:34:17.094 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:17.094 > configsip: 0, SPIWP:0xee
+15:34:17.094 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:17.094 > mode:DIO, clock div:2
+15:34:17.094 > load:0x3fff0030,len:1184
+15:34:17.094 > load:0x40078000,len:12776
+15:34:17.094 > load:0x40080400,len:3032
+15:34:17.094 > entry 0x400805e4
+15:34:17.222 > hello
+15:34:17.223 > hello
+15:34:17.341 > 0,0
+15:34:17.341 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:17.341 > 
+15:34:17.341 > Core  1 register dump:
+15:34:17.341 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:17.341 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:17.341 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:17.341 > A10     : 0x3ffc1414  A11     : 0x0500eca4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:17.341 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:17.341 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:17.341 > Core  1 was running in ISR context:
+15:34:17.341 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:17.341 > 
+15:34:17.341 > 
+15:34:17.341 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:17.341 > 
+15:34:17.341 > 
+15:34:17.341 > 
+15:34:17.341 > 
+15:34:17.341 > ELF file SHA256: 0000000000000000
+15:34:17.341 > 
+15:34:17.341 > Rebooting...
+15:34:17.341 > ets Jul 29 2019 12:21:46
+15:34:17.341 > 
+15:34:17.341 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:17.341 > configsip: 0, SPIWP:0xee
+15:34:17.341 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:17.341 > mode:DIO, clock div:2
+15:34:17.341 > load:0x3fff0030,len:1184
+15:34:17.341 > load:0x40078000,len:12776
+15:34:17.341 > load:0x40080400,len:3032
+15:34:17.341 > entry 0x400805e4
+15:34:17.469 > hello
+15:34:17.469 > hello
+15:34:17.587 > 0,0
+15:34:17.587 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:17.587 > 
+15:34:17.587 > Core  1 register dump:
+15:34:17.587 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:17.587 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:17.587 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:17.587 > A10     : 0x3ffc1414  A11     : 0x05007e04  A12     : 0x00000014  A13     : 0x00060023  
+15:34:17.587 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:17.587 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:17.587 > Core  1 was running in ISR context:
+15:34:17.587 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:17.587 > 
+15:34:17.587 > 
+15:34:17.587 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:17.587 > 
+15:34:17.587 > 
+15:34:17.587 > 
+15:34:17.587 > 
+15:34:17.587 > ELF file SHA256: 0000000000000000
+15:34:17.587 > 
+15:34:17.587 > Rebooting...
+15:34:17.587 > ets Jul 29 2019 12:21:46
+15:34:17.587 > 
+15:34:17.587 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:17.587 > configsip: 0, SPIWP:0xee
+15:34:17.587 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:17.587 > mode:DIO, clock div:2
+15:34:17.587 > load:0x3fff0030,len:1184
+15:34:17.587 > load:0x40078000,len:12776
+15:34:17.587 > load:0x40080400,len:3032
+15:34:17.587 > entry 0x400805e4
+15:34:17.717 > hello
+15:34:17.717 > hello
+15:34:17.836 > 0,0
+15:34:17.837 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:17.837 > 
+15:34:17.837 > Core  1 register dump:
+15:34:17.837 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:17.837 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:17.837 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:17.837 > A10     : 0x3ffc1414  A11     : 0x0500c738  A12     : 0x00000014  A13     : 0x00060023  
+15:34:17.837 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:17.837 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:17.837 > Core  1 was running in ISR context:
+15:34:17.837 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:17.837 > 
+15:34:17.837 > 
+15:34:17.837 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:17.837 > 
+15:34:17.837 > 
+15:34:17.837 > 
+15:34:17.837 > 
+15:34:17.837 > ELF file SHA256: 0000000000000000
+15:34:17.837 > 
+15:34:17.837 > Rebooting...
+15:34:17.837 > ets Jul 29 2019 12:21:46
+15:34:17.837 > 
+15:34:17.837 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:17.837 > configsip: 0, SPIWP:0xee
+15:34:17.837 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:17.837 > mode:DIO, clock div:2
+15:34:17.837 > load:0x3fff0030,len:1184
+15:34:17.837 > load:0x40078000,len:12776
+15:34:17.837 > load:0x40080400,len:3032
+15:34:17.837 > entry 0x400805e4
+15:34:17.963 > hello
+15:34:17.963 > hello
+15:34:18.083 > 0,0
+15:34:18.083 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:18.083 > 
+15:34:18.083 > Core  1 register dump:
+15:34:18.083 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:18.083 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:18.083 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:18.083 > A10     : 0x3ffc1414  A11     : 0x0500986c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:18.083 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:18.083 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:18.083 > Core  1 was running in ISR context:
+15:34:18.083 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:18.083 > 
+15:34:18.083 > 
+15:34:18.083 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:18.083 > 
+15:34:18.083 > 
+15:34:18.083 > 
+15:34:18.083 > 
+15:34:18.083 > ELF file SHA256: 0000000000000000
+15:34:18.083 > 
+15:34:18.083 > Rebooting...
+15:34:18.083 > ets Jul 29 2019 12:21:46
+15:34:18.083 > 
+15:34:18.083 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:18.083 > configsip: 0, SPIWP:0xee
+15:34:18.083 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:18.083 > mode:DIO, clock div:2
+15:34:18.083 > load:0x3fff0030,len:1184
+15:34:18.083 > load:0x40078000,len:12776
+15:34:18.083 > load:0x40080400,len:3032
+15:34:18.083 > entry 0x400805e4
+15:34:18.212 > hello
+15:34:18.213 > hello
+15:34:18.331 > 0,0
+15:34:18.331 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:18.331 > 
+15:34:18.331 > Core  1 register dump:
+15:34:18.331 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:18.331 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:18.331 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:18.331 > A10     : 0x3ffc1414  A11     : 0x05009434  A12     : 0x00000014  A13     : 0x00060023  
+15:34:18.331 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:18.331 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:18.331 > Core  1 was running in ISR context:
+15:34:18.331 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:18.331 > 
+15:34:18.331 > 
+15:34:18.331 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:18.331 > 
+15:34:18.331 > 
+15:34:18.331 > 
+15:34:18.331 > 
+15:34:18.331 > ELF file SHA256: 0000000000000000
+15:34:18.331 > 
+15:34:18.331 > Rebooting...
+15:34:18.331 > ets Jul 29 2019 12:21:46
+15:34:18.331 > 
+15:34:18.331 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:18.331 > configsip: 0, SPIWP:0xee
+15:34:18.331 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:18.331 > mode:DIO, clock div:2
+15:34:18.331 > load:0x3fff0030,len:1184
+15:34:18.331 > load:0x40078000,len:12776
+15:34:18.331 > load:0x40080400,len:3032
+15:34:18.331 > entry 0x400805e4
+15:34:18.458 > hello
+15:34:18.458 > hello
+15:34:18.579 > 0,0
+15:34:18.580 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:18.580 > 
+15:34:18.580 > Core  1 register dump:
+15:34:18.580 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:18.580 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:18.580 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:18.580 > A10     : 0x3ffc1414  A11     : 0x0500a884  A12     : 0x00000014  A13     : 0x00060023  
+15:34:18.580 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:18.580 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:18.580 > Core  1 was running in ISR context:
+15:34:18.580 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:18.580 > 
+15:34:18.580 > 
+15:34:18.580 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:18.580 > 
+15:34:18.580 > 
+15:34:18.580 > 
+15:34:18.580 > 
+15:34:18.580 > ELF file SHA256: 0000000000000000
+15:34:18.580 > 
+15:34:18.580 > Rebooting...
+15:34:18.580 > ets Jul 29 2019 12:21:46
+15:34:18.580 > 
+15:34:18.580 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:18.580 > configsip: 0, SPIWP:0xee
+15:34:18.580 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:18.580 > mode:DIO, clock div:2
+15:34:18.580 > load:0x3fff0030,len:1184
+15:34:18.580 > load:0x40078000,len:12776
+15:34:18.580 > load:0x40080400,len:3032
+15:34:18.580 > entry 0x400805e4
+15:34:18.706 > hello
+15:34:18.708 > hello
+15:34:18.821 > 0,0
+15:34:18.826 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:18.826 > 
+15:34:18.826 > Core  1 register dump:
+15:34:18.826 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:18.826 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:18.826 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:18.826 > A10     : 0x3ffc1414  A11     : 0x050095d8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:18.826 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:18.826 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:18.826 > Core  1 was running in ISR context:
+15:34:18.826 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:18.826 > 
+15:34:18.826 > 
+15:34:18.826 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:18.826 > 
+15:34:18.826 > 
+15:34:18.826 > 
+15:34:18.826 > 
+15:34:18.826 > ELF file SHA256: 0000000000000000
+15:34:18.826 > 
+15:34:18.826 > Rebooting...
+15:34:18.826 > ets Jul 29 2019 12:21:46
+15:34:18.826 > 
+15:34:18.826 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:18.826 > configsip: 0, SPIWP:0xee
+15:34:18.826 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:18.826 > mode:DIO, clock div:2
+15:34:18.826 > load:0x3fff0030,len:1184
+15:34:18.826 > load:0x40078000,len:12776
+15:34:18.826 > load:0x40080400,len:3032
+15:34:18.826 > entry 0x400805e4
+15:34:18.951 > hello
+15:34:18.951 > hello
+15:34:19.072 > 0,0
+15:34:19.072 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:19.072 > 
+15:34:19.072 > Core  1 register dump:
+15:34:19.072 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:19.072 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:19.072 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:19.072 > A10     : 0x3ffc1414  A11     : 0x0500ab18  A12     : 0x00000014  A13     : 0x00060023  
+15:34:19.072 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:19.072 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:19.072 > Core  1 was running in ISR context:
+15:34:19.072 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:19.072 > 
+15:34:19.072 > 
+15:34:19.072 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:19.072 > 
+15:34:19.072 > 
+15:34:19.072 > 
+15:34:19.072 > 
+15:34:19.072 > ELF file SHA256: 0000000000000000
+15:34:19.072 > 
+15:34:19.072 > Rebooting...
+15:34:19.072 > ets Jul 29 2019 12:21:46
+15:34:19.072 > 
+15:34:19.072 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:19.072 > configsip: 0, SPIWP:0xee
+15:34:19.072 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:19.072 > mode:DIO, clock div:2
+15:34:19.072 > load:0x3fff0030,len:1184
+15:34:19.072 > load:0x40078000,len:12776
+15:34:19.072 > load:0x40080400,len:3032
+15:34:19.072 > entry 0x400805e4
+15:34:19.201 > hello
+15:34:19.201 > hello
+15:34:19.318 > 0,0
+15:34:19.320 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:19.320 > 
+15:34:19.320 > Core  1 register dump:
+15:34:19.320 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:19.320 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:19.320 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:19.320 > A10     : 0x3ffc1414  A11     : 0x050073dc  A12     : 0x00000014  A13     : 0x00060023  
+15:34:19.320 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:19.320 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:19.320 > Core  1 was running in ISR context:
+15:34:19.320 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:19.320 > 
+15:34:19.320 > 
+15:34:19.320 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:19.320 > 
+15:34:19.320 > 
+15:34:19.320 > 
+15:34:19.320 > 
+15:34:19.320 > ELF file SHA256: 0000000000000000
+15:34:19.320 > 
+15:34:19.320 > Rebooting...
+15:34:19.320 > ets Jul 29 2019 12:21:46
+15:34:19.320 > 
+15:34:19.320 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:19.320 > configsip: 0, SPIWP:0xee
+15:34:19.320 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:19.320 > mode:DIO, clock div:2
+15:34:19.320 > load:0x3fff0030,len:1184
+15:34:19.320 > load:0x40078000,len:12776
+15:34:19.320 > load:0x40080400,len:3032
+15:34:19.320 > entry 0x400805e4
+15:34:19.445 > hello
+15:34:19.449 > hello
+15:34:19.565 > 0,0
+15:34:19.570 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:19.570 > 
+15:34:19.570 > Core  1 register dump:
+15:34:19.570 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:19.570 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:19.570 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:19.570 > A10     : 0x3ffc1414  A11     : 0x050072ec  A12     : 0x00000014  A13     : 0x00060023  
+15:34:19.570 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:19.570 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:19.570 > Core  1 was running in ISR context:
+15:34:19.570 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:19.570 > 
+15:34:19.570 > 
+15:34:19.570 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:19.570 > 
+15:34:19.570 > 
+15:34:19.570 > 
+15:34:19.570 > 
+15:34:19.570 > ELF file SHA256: 0000000000000000
+15:34:19.570 > 
+15:34:19.570 > Rebooting...
+15:34:19.570 > ets Jul 29 2019 12:21:46
+15:34:19.570 > 
+15:34:19.570 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:19.570 > configsip: 0, SPIWP:0xee
+15:34:19.570 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:19.570 > mode:DIO, clock div:2
+15:34:19.570 > load:0x3fff0030,len:1184
+15:34:19.570 > load:0x40078000,len:12776
+15:34:19.570 > load:0x40080400,len:3032
+15:34:19.570 > entry 0x400805e4
+15:34:19.695 > hello
+15:34:19.695 > hello
+15:34:19.814 > 0,0
+15:34:19.814 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:19.814 > 
+15:34:19.814 > Core  1 register dump:
+15:34:19.814 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:19.814 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:19.814 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:19.814 > A10     : 0x3ffc1414  A11     : 0x0500b48c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:19.814 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:19.814 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:19.814 > Core  1 was running in ISR context:
+15:34:19.814 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:19.814 > 
+15:34:19.814 > 
+15:34:19.814 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:19.814 > 
+15:34:19.814 > 
+15:34:19.814 > 
+15:34:19.814 > 
+15:34:19.814 > ELF file SHA256: 0000000000000000
+15:34:19.814 > 
+15:34:19.814 > Rebooting...
+15:34:19.814 > ets Jul 29 2019 12:21:46
+15:34:19.814 > 
+15:34:19.814 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:19.814 > configsip: 0, SPIWP:0xee
+15:34:19.814 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:19.814 > mode:DIO, clock div:2
+15:34:19.814 > load:0x3fff0030,len:1184
+15:34:19.814 > load:0x40078000,len:12776
+15:34:19.814 > load:0x40080400,len:3032
+15:34:19.814 > entry 0x400805e4
+15:34:19.942 > hello
+15:34:19.942 > hello
+15:34:20.061 > 0,0
+15:34:20.061 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:20.061 > 
+15:34:20.061 > Core  1 register dump:
+15:34:20.061 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:20.061 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:20.061 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:20.061 > A10     : 0x3ffc1414  A11     : 0x05008c78  A12     : 0x00000014  A13     : 0x00060023  
+15:34:20.061 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:20.061 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:20.061 > Core  1 was running in ISR context:
+15:34:20.061 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:20.061 > 
+15:34:20.061 > 
+15:34:20.061 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:20.061 > 
+15:34:20.061 > 
+15:34:20.061 > 
+15:34:20.061 > 
+15:34:20.061 > ELF file SHA256: 0000000000000000
+15:34:20.061 > 
+15:34:20.061 > Rebooting...
+15:34:20.061 > ets Jul 29 2019 12:21:46
+15:34:20.061 > 
+15:34:20.061 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:20.061 > configsip: 0, SPIWP:0xee
+15:34:20.061 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:20.061 > mode:DIO, clock div:2
+15:34:20.061 > load:0x3fff0030,len:1184
+15:34:20.061 > load:0x40078000,len:12776
+15:34:20.061 > load:0x40080400,len:3032
+15:34:20.061 > entry 0x400805e4
+15:34:20.188 > hello
+15:34:20.188 > hello
+15:34:20.307 > 0,0
+15:34:20.307 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:20.307 > 
+15:34:20.307 > Core  1 register dump:
+15:34:20.307 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:20.307 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:20.307 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:20.307 > A10     : 0x3ffc1414  A11     : 0x05009ca4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:20.307 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:20.307 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:20.307 > Core  1 was running in ISR context:
+15:34:20.307 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:20.307 > 
+15:34:20.307 > 
+15:34:20.307 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:20.307 > 
+15:34:20.307 > 
+15:34:20.307 > 
+15:34:20.307 > 
+15:34:20.307 > ELF file SHA256: 0000000000000000
+15:34:20.307 > 
+15:34:20.307 > Rebooting...
+15:34:20.307 > ets Jul 29 2019 12:21:46
+15:34:20.307 > 
+15:34:20.307 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:20.307 > configsip: 0, SPIWP:0xee
+15:34:20.307 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:20.307 > mode:DIO, clock div:2
+15:34:20.307 > load:0x3fff0030,len:1184
+15:34:20.307 > load:0x40078000,len:12776
+15:34:20.307 > load:0x40080400,len:3032
+15:34:20.307 > entry 0x400805e4
+15:34:20.436 > hello
+15:34:20.436 > hello
+15:34:20.555 > 0,0
+15:34:20.555 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:20.555 > 
+15:34:20.555 > Core  1 register dump:
+15:34:20.555 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:20.555 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:20.555 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:20.555 > A10     : 0x3ffc1414  A11     : 0x05004d80  A12     : 0x00000014  A13     : 0x00060023  
+15:34:20.555 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:20.555 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:20.555 > Core  1 was running in ISR context:
+15:34:20.555 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:20.555 > 
+15:34:20.555 > 
+15:34:20.555 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:20.555 > 
+15:34:20.555 > 
+15:34:20.555 > 
+15:34:20.555 > 
+15:34:20.555 > ELF file SHA256: 0000000000000000
+15:34:20.555 > 
+15:34:20.555 > Rebooting...
+15:34:20.555 > ets Jul 29 2019 12:21:46
+15:34:20.555 > 
+15:34:20.555 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:20.555 > configsip: 0, SPIWP:0xee
+15:34:20.555 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:20.555 > mode:DIO, clock div:2
+15:34:20.555 > load:0x3fff0030,len:1184
+15:34:20.555 > load:0x40078000,len:12776
+15:34:20.555 > load:0x40080400,len:3032
+15:34:20.555 > entry 0x400805e4
+15:34:20.684 > hello
+15:34:20.685 > hello
+15:34:20.802 > 0,0
+15:34:20.802 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:20.802 > 
+15:34:20.802 > Core  1 register dump:
+15:34:20.802 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:20.802 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:20.802 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:20.802 > A10     : 0x3ffc1414  A11     : 0x05006a7c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:20.802 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:20.802 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:20.802 > Core  1 was running in ISR context:
+15:34:20.802 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:20.802 > 
+15:34:20.802 > 
+15:34:20.802 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:20.802 > 
+15:34:20.802 > 
+15:34:20.802 > 
+15:34:20.802 > 
+15:34:20.802 > ELF file SHA256: 0000000000000000
+15:34:20.802 > 
+15:34:20.802 > Rebooting...
+15:34:20.802 > ets Jul 29 2019 12:21:46
+15:34:20.802 > 
+15:34:20.802 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:20.802 > configsip: 0, SPIWP:0xee
+15:34:20.802 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:20.802 > mode:DIO, clock div:2
+15:34:20.802 > load:0x3fff0030,len:1184
+15:34:20.802 > load:0x40078000,len:12776
+15:34:20.802 > load:0x40080400,len:3032
+15:34:20.802 > entry 0x400805e4
+15:34:20.932 > hello
+15:34:20.932 > hello
+15:34:21.051 > 0,0
+15:34:21.051 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:21.051 > 
+15:34:21.051 > Core  1 register dump:
+15:34:21.051 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:21.051 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:21.051 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:21.051 > A10     : 0x3ffc1414  A11     : 0x05008174  A12     : 0x00000014  A13     : 0x00060023  
+15:34:21.051 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:21.051 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:21.051 > Core  1 was running in ISR context:
+15:34:21.051 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:21.051 > 
+15:34:21.051 > 
+15:34:21.051 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:21.051 > 
+15:34:21.051 > 
+15:34:21.051 > 
+15:34:21.051 > 
+15:34:21.051 > ELF file SHA256: 0000000000000000
+15:34:21.051 > 
+15:34:21.051 > Rebooting...
+15:34:21.051 > ets Jul 29 2019 12:21:46
+15:34:21.051 > 
+15:34:21.051 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:21.051 > configsip: 0, SPIWP:0xee
+15:34:21.051 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:21.051 > mode:DIO, clock div:2
+15:34:21.051 > load:0x3fff0030,len:1184
+15:34:21.051 > load:0x40078000,len:12776
+15:34:21.051 > load:0x40080400,len:3032
+15:34:21.051 > entry 0x400805e4
+15:34:21.177 > hello
+15:34:21.177 > hello
+15:34:21.299 > 0,0
+15:34:21.299 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:21.299 > 
+15:34:21.299 > Core  1 register dump:
+15:34:21.299 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:21.299 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:21.299 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:21.299 > A10     : 0x3ffc1414  A11     : 0x05008b9c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:21.299 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:21.299 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:21.299 > Core  1 was running in ISR context:
+15:34:21.299 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:21.299 > 
+15:34:21.299 > 
+15:34:21.299 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:21.299 > 
+15:34:21.299 > 
+15:34:21.299 > 
+15:34:21.299 > 
+15:34:21.299 > ELF file SHA256: 0000000000000000
+15:34:21.299 > 
+15:34:21.299 > Rebooting...
+15:34:21.299 > ets Jul 29 2019 12:21:46
+15:34:21.299 > 
+15:34:21.299 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:21.299 > configsip: 0, SPIWP:0xee
+15:34:21.299 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:21.299 > mode:DIO, clock div:2
+15:34:21.299 > load:0x3fff0030,len:1184
+15:34:21.299 > load:0x40078000,len:12776
+15:34:21.299 > load:0x40080400,len:3032
+15:34:21.299 > entry 0x400805e4
+15:34:21.425 > hello
+15:34:21.427 > hello
+15:34:21.542 > 0,0
+15:34:21.542 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:21.542 > 
+15:34:21.542 > Core  1 register dump:
+15:34:21.542 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:21.542 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:21.542 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:21.542 > A10     : 0x3ffc1414  A11     : 0x050089e4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:21.542 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:21.542 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:21.542 > Core  1 was running in ISR context:
+15:34:21.542 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:21.542 > 
+15:34:21.542 > 
+15:34:21.542 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:21.542 > 
+15:34:21.542 > 
+15:34:21.542 > 
+15:34:21.542 > 
+15:34:21.542 > ELF file SHA256: 0000000000000000
+15:34:21.542 > 
+15:34:21.542 > Rebooting...
+15:34:21.542 > ets Jul 29 2019 12:21:46
+15:34:21.542 > 
+15:34:21.542 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:21.542 > configsip: 0, SPIWP:0xee
+15:34:21.542 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:21.542 > mode:DIO, clock div:2
+15:34:21.542 > load:0x3fff0030,len:1184
+15:34:21.542 > load:0x40078000,len:12776
+15:34:21.542 > load:0x40080400,len:3032
+15:34:21.542 > entry 0x400805e4
+15:34:21.672 > hello
+15:34:21.672 > hello
+15:34:21.794 > 0,0
+15:34:21.794 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:21.794 > 
+15:34:21.794 > Core  1 register dump:
+15:34:21.794 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:21.794 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:21.794 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:21.794 > A10     : 0x3ffc1414  A11     : 0x05007814  A12     : 0x00000014  A13     : 0x00060023  
+15:34:21.794 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:21.794 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:21.794 > Core  1 was running in ISR context:
+15:34:21.794 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:21.794 > 
+15:34:21.794 > 
+15:34:21.794 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:21.794 > 
+15:34:21.794 > 
+15:34:21.794 > 
+15:34:21.794 > 
+15:34:21.794 > ELF file SHA256: 0000000000000000
+15:34:21.794 > 
+15:34:21.794 > Rebooting...
+15:34:21.794 > ets Jul 29 2019 12:21:46
+15:34:21.794 > 
+15:34:21.794 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:21.794 > configsip: 0, SPIWP:0xee
+15:34:21.794 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:21.794 > mode:DIO, clock div:2
+15:34:21.794 > load:0x3fff0030,len:1184
+15:34:21.794 > load:0x40078000,len:12776
+15:34:21.794 > load:0x40080400,len:3032
+15:34:21.794 > entry 0x400805e4
+15:34:21.921 > hello
+15:34:21.921 > hello
+15:34:22.039 > 0,0
+15:34:22.039 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:22.039 > 
+15:34:22.039 > Core  1 register dump:
+15:34:22.039 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:22.039 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:22.039 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:22.039 > A10     : 0x3ffc1414  A11     : 0x05008d54  A12     : 0x00000014  A13     : 0x00060023  
+15:34:22.039 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:22.039 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:22.039 > Core  1 was running in ISR context:
+15:34:22.039 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:22.039 > 
+15:34:22.039 > 
+15:34:22.039 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:22.039 > 
+15:34:22.039 > 
+15:34:22.039 > 
+15:34:22.039 > 
+15:34:22.039 > ELF file SHA256: 0000000000000000
+15:34:22.039 > 
+15:34:22.039 > Rebooting...
+15:34:22.039 > ets Jul 29 2019 12:21:46
+15:34:22.039 > 
+15:34:22.039 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:22.039 > configsip: 0, SPIWP:0xee
+15:34:22.039 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:22.039 > mode:DIO, clock div:2
+15:34:22.039 > load:0x3fff0030,len:1184
+15:34:22.039 > load:0x40078000,len:12776
+15:34:22.039 > load:0x40080400,len:3032
+15:34:22.039 > entry 0x400805e4
+15:34:22.165 > hello
+15:34:22.169 > hello
+15:34:22.288 > 0,0
+15:34:22.288 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:22.288 > 
+15:34:22.288 > Core  1 register dump:
+15:34:22.288 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:22.288 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:22.288 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:22.288 > A10     : 0x3ffc1414  A11     : 0x0500a1b8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:22.288 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:22.288 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:22.288 > Core  1 was running in ISR context:
+15:34:22.288 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:22.288 > 
+15:34:22.288 > 
+15:34:22.288 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:22.288 > 
+15:34:22.288 > 
+15:34:22.288 > 
+15:34:22.288 > 
+15:34:22.288 > ELF file SHA256: 0000000000000000
+15:34:22.288 > 
+15:34:22.288 > Rebooting...
+15:34:22.288 > ets Jul 29 2019 12:21:46
+15:34:22.288 > 
+15:34:22.288 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:22.288 > configsip: 0, SPIWP:0xee
+15:34:22.288 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:22.288 > mode:DIO, clock div:2
+15:34:22.288 > load:0x3fff0030,len:1184
+15:34:22.288 > load:0x40078000,len:12776
+15:34:22.288 > load:0x40080400,len:3032
+15:34:22.288 > entry 0x400805e4
+15:34:22.412 > hello
+15:34:22.417 > hello
+15:34:22.532 > 0,0
+15:34:22.536 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:22.536 > 
+15:34:22.536 > Core  1 register dump:
+15:34:22.536 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:22.536 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:22.536 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:22.536 > A10     : 0x3ffc1414  A11     : 0x050023c8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:22.536 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:22.536 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:22.536 > Core  1 was running in ISR context:
+15:34:22.536 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:22.536 > 
+15:34:22.536 > 
+15:34:22.536 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:22.536 > 
+15:34:22.536 > 
+15:34:22.536 > 
+15:34:22.536 > 
+15:34:22.536 > ELF file SHA256: 0000000000000000
+15:34:22.536 > 
+15:34:22.536 > Rebooting...
+15:34:22.536 > ets Jul 29 2019 12:21:46
+15:34:22.536 > 
+15:34:22.536 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:22.536 > configsip: 0, SPIWP:0xee
+15:34:22.536 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:22.536 > mode:DIO, clock div:2
+15:34:22.536 > load:0x3fff0030,len:1184
+15:34:22.536 > load:0x40078000,len:12776
+15:34:22.536 > load:0x40080400,len:3032
+15:34:22.536 > entry 0x400805e4
+15:34:22.663 > hello
+15:34:22.663 > hello
+15:34:22.783 > 0,0
+15:34:22.783 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:22.783 > 
+15:34:22.783 > Core  1 register dump:
+15:34:22.783 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:22.783 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:22.783 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:22.783 > A10     : 0x3ffc1414  A11     : 0x0500b2d4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:22.783 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:22.783 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:22.783 > Core  1 was running in ISR context:
+15:34:22.783 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:22.783 > 
+15:34:22.783 > 
+15:34:22.783 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:22.783 > 
+15:34:22.783 > 
+15:34:22.783 > 
+15:34:22.783 > 
+15:34:22.783 > ELF file SHA256: 0000000000000000
+15:34:22.783 > 
+15:34:22.783 > Rebooting...
+15:34:22.783 > ets Jul 29 2019 12:21:46
+15:34:22.783 > 
+15:34:22.783 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:22.783 > configsip: 0, SPIWP:0xee
+15:34:22.783 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:22.783 > mode:DIO, clock div:2
+15:34:22.783 > load:0x3fff0030,len:1184
+15:34:22.783 > load:0x40078000,len:12776
+15:34:22.783 > load:0x40080400,len:3032
+15:34:22.783 > entry 0x400805e4
+15:34:22.909 > hello
+15:34:22.909 > hello
+15:34:23.029 > 0,0
+15:34:23.029 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:23.029 > 
+15:34:23.029 > Core  1 register dump:
+15:34:23.029 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:23.029 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:23.029 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:23.029 > A10     : 0x3ffc1414  A11     : 0x05001f90  A12     : 0x00000014  A13     : 0x00060023  
+15:34:23.029 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:23.029 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:23.029 > Core  1 was running in ISR context:
+15:34:23.029 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:23.029 > 
+15:34:23.029 > 
+15:34:23.029 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:23.029 > 
+15:34:23.029 > 
+15:34:23.029 > 
+15:34:23.029 > 
+15:34:23.029 > ELF file SHA256: 0000000000000000
+15:34:23.029 > 
+15:34:23.029 > Rebooting...
+15:34:23.029 > ets Jul 29 2019 12:21:46
+15:34:23.029 > 
+15:34:23.029 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:23.029 > configsip: 0, SPIWP:0xee
+15:34:23.029 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:23.029 > mode:DIO, clock div:2
+15:34:23.029 > load:0x3fff0030,len:1184
+15:34:23.029 > load:0x40078000,len:12776
+15:34:23.029 > load:0x40080400,len:3032
+15:34:23.029 > entry 0x400805e4
+15:34:23.157 > hello
+15:34:23.158 > hello
+15:34:23.278 > 0,0
+15:34:23.278 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:23.278 > 
+15:34:23.278 > Core  1 register dump:
+15:34:23.278 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:23.278 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:23.278 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:23.278 > A10     : 0x3ffc1414  A11     : 0x05008e30  A12     : 0x00000014  A13     : 0x00060023  
+15:34:23.278 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:23.278 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:23.278 > Core  1 was running in ISR context:
+15:34:23.278 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:23.278 > 
+15:34:23.278 > 
+15:34:23.278 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:23.278 > 
+15:34:23.278 > 
+15:34:23.278 > 
+15:34:23.278 > 
+15:34:23.278 > ELF file SHA256: 0000000000000000
+15:34:23.278 > 
+15:34:23.278 > Rebooting...
+15:34:23.278 > ets Jul 29 2019 12:21:46
+15:34:23.278 > 
+15:34:23.278 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:23.278 > configsip: 0, SPIWP:0xee
+15:34:23.278 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:23.278 > mode:DIO, clock div:2
+15:34:23.278 > load:0x3fff0030,len:1184
+15:34:23.278 > load:0x40078000,len:12776
+15:34:23.278 > load:0x40080400,len:3032
+15:34:23.278 > entry 0x400805e4
+15:34:23.403 > hello
+15:34:23.403 > hello
+15:34:23.522 > 0,0
+15:34:23.526 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:23.526 > 
+15:34:23.526 > Core  1 register dump:
+15:34:23.526 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:23.526 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:23.526 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:23.526 > A10     : 0x3ffc1414  A11     : 0x05007594  A12     : 0x00000014  A13     : 0x00060023  
+15:34:23.526 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:23.526 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:23.526 > Core  1 was running in ISR context:
+15:34:23.526 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:23.526 > 
+15:34:23.526 > 
+15:34:23.526 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:23.526 > 
+15:34:23.526 > 
+15:34:23.526 > 
+15:34:23.526 > 
+15:34:23.526 > ELF file SHA256: 0000000000000000
+15:34:23.526 > 
+15:34:23.526 > Rebooting...
+15:34:23.526 > ets Jul 29 2019 12:21:46
+15:34:23.526 > 
+15:34:23.526 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:23.526 > configsip: 0, SPIWP:0xee
+15:34:23.526 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:23.526 > mode:DIO, clock div:2
+15:34:23.526 > load:0x3fff0030,len:1184
+15:34:23.526 > load:0x40078000,len:12776
+15:34:23.526 > load:0x40080400,len:3032
+15:34:23.526 > entry 0x400805e4
+15:34:23.652 > hello
+15:34:23.652 > hello
+15:34:23.770 > 0,0
+15:34:23.770 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:23.770 > 
+15:34:23.770 > Core  1 register dump:
+15:34:23.770 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:23.770 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:23.770 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:23.770 > A10     : 0x3ffc1414  A11     : 0x05005898  A12     : 0x00000014  A13     : 0x00060023  
+15:34:23.770 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:23.770 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:23.770 > Core  1 was running in ISR context:
+15:34:23.770 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:23.770 > 
+15:34:23.770 > 
+15:34:23.770 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:23.770 > 
+15:34:23.770 > 
+15:34:23.770 > 
+15:34:23.770 > 
+15:34:23.770 > ELF file SHA256: 0000000000000000
+15:34:23.770 > 
+15:34:23.770 > Rebooting...
+15:34:23.770 > ets Jul 29 2019 12:21:46
+15:34:23.770 > 
+15:34:23.770 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:23.770 > configsip: 0, SPIWP:0xee
+15:34:23.770 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:23.770 > mode:DIO, clock div:2
+15:34:23.770 > load:0x3fff0030,len:1184
+15:34:23.770 > load:0x40078000,len:12776
+15:34:23.770 > load:0x40080400,len:3032
+15:34:23.770 > entry 0x400805e4
+15:34:23.897 > hello
+15:34:23.901 > hello
+15:34:24.018 > 0,0
+15:34:24.018 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:24.018 > 
+15:34:24.018 > Core  1 register dump:
+15:34:24.018 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:24.018 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:24.018 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:24.018 > A10     : 0x3ffc1414  A11     : 0x0500c594  A12     : 0x00000014  A13     : 0x00060023  
+15:34:24.018 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:24.018 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:24.018 > Core  1 was running in ISR context:
+15:34:24.018 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:24.018 > 
+15:34:24.018 > 
+15:34:24.018 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:24.018 > 
+15:34:24.018 > 
+15:34:24.018 > 
+15:34:24.018 > 
+15:34:24.018 > ELF file SHA256: 0000000000000000
+15:34:24.018 > 
+15:34:24.018 > Rebooting...
+15:34:24.018 > ets Jul 29 2019 12:21:46
+15:34:24.018 > 
+15:34:24.018 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:24.018 > configsip: 0, SPIWP:0xee
+15:34:24.018 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:24.018 > mode:DIO, clock div:2
+15:34:24.018 > load:0x3fff0030,len:1184
+15:34:24.018 > load:0x40078000,len:12776
+15:34:24.018 > load:0x40080400,len:3032
+15:34:24.018 > entry 0x400805e4
+15:34:24.144 > hello
+15:34:24.148 > hello
+15:34:24.267 > 0,0
+15:34:24.267 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:24.267 > 
+15:34:24.267 > Core  1 register dump:
+15:34:24.267 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:24.267 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:24.267 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:24.267 > A10     : 0x3ffc1414  A11     : 0x050062c0  A12     : 0x00000014  A13     : 0x00060023  
+15:34:24.267 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:24.267 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:24.267 > Core  1 was running in ISR context:
+15:34:24.267 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:24.267 > 
+15:34:24.267 > 
+15:34:24.267 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:24.267 > 
+15:34:24.267 > 
+15:34:24.267 > 
+15:34:24.267 > 
+15:34:24.267 > ELF file SHA256: 0000000000000000
+15:34:24.267 > 
+15:34:24.267 > Rebooting...
+15:34:24.267 > ets Jul 29 2019 12:21:46
+15:34:24.267 > 
+15:34:24.267 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:24.267 > configsip: 0, SPIWP:0xee
+15:34:24.267 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:24.267 > mode:DIO, clock div:2
+15:34:24.267 > load:0x3fff0030,len:1184
+15:34:24.267 > load:0x40078000,len:12776
+15:34:24.267 > load:0x40080400,len:3032
+15:34:24.267 > entry 0x400805e4
+15:34:24.394 > hello
+15:34:24.394 > hello
+15:34:24.512 > 0,0
+15:34:24.512 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:24.512 > 
+15:34:24.512 > Core  1 register dump:
+15:34:24.512 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:24.512 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:24.512 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:24.512 > A10     : 0x3ffc1414  A11     : 0x05008098  A12     : 0x00000014  A13     : 0x00060023  
+15:34:24.512 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:24.512 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:24.512 > Core  1 was running in ISR context:
+15:34:24.512 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:24.512 > 
+15:34:24.512 > 
+15:34:24.512 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:24.512 > 
+15:34:24.512 > 
+15:34:24.512 > 
+15:34:24.512 > 
+15:34:24.512 > ELF file SHA256: 0000000000000000
+15:34:24.512 > 
+15:34:24.512 > Rebooting...
+15:34:24.512 > ets Jul 29 2019 12:21:46
+15:34:24.512 > 
+15:34:24.512 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:24.512 > configsip: 0, SPIWP:0xee
+15:34:24.512 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:24.512 > mode:DIO, clock div:2
+15:34:24.512 > load:0x3fff0030,len:1184
+15:34:24.512 > load:0x40078000,len:12776
+15:34:24.512 > load:0x40080400,len:3032
+15:34:24.512 > entry 0x400805e4
+15:34:24.642 > hello
+15:34:24.643 > hello
+15:34:24.762 > 0,0
+15:34:24.762 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:24.762 > 
+15:34:24.762 > Core  1 register dump:
+15:34:24.762 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:24.762 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:24.762 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:24.762 > A10     : 0x3ffc1414  A11     : 0x05003fe8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:24.762 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:24.762 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:24.762 > Core  1 was running in ISR context:
+15:34:24.762 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:24.762 > 
+15:34:24.762 > 
+15:34:24.762 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:24.762 > 
+15:34:24.762 > 
+15:34:24.762 > 
+15:34:24.762 > 
+15:34:24.762 > ELF file SHA256: 0000000000000000
+15:34:24.762 > 
+15:34:24.762 > Rebooting...
+15:34:24.762 > ets Jul 29 2019 12:21:46
+15:34:24.762 > 
+15:34:24.762 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:24.762 > configsip: 0, SPIWP:0xee
+15:34:24.762 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:24.762 > mode:DIO, clock div:2
+15:34:24.762 > load:0x3fff0030,len:1184
+15:34:24.762 > load:0x40078000,len:12776
+15:34:24.762 > load:0x40080400,len:3032
+15:34:24.762 > entry 0x400805e4
+15:34:24.888 > hello
+15:34:24.888 > hello
+15:34:25.009 > 0,0
+15:34:25.009 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:25.009 > 
+15:34:25.009 > Core  1 register dump:
+15:34:25.009 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:25.009 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:25.009 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:25.009 > A10     : 0x3ffc1414  A11     : 0x0500ae88  A12     : 0x00000014  A13     : 0x00060023  
+15:34:25.009 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:25.009 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:25.009 > Core  1 was running in ISR context:
+15:34:25.009 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:25.009 > 
+15:34:25.009 > 
+15:34:25.009 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:25.009 > 
+15:34:25.009 > 
+15:34:25.009 > 
+15:34:25.009 > 
+15:34:25.009 > ELF file SHA256: 0000000000000000
+15:34:25.009 > 
+15:34:25.009 > Rebooting...
+15:34:25.009 > ets Jul 29 2019 12:21:46
+15:34:25.009 > 
+15:34:25.009 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:25.009 > configsip: 0, SPIWP:0xee
+15:34:25.009 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:25.009 > mode:DIO, clock div:2
+15:34:25.009 > load:0x3fff0030,len:1184
+15:34:25.009 > load:0x40078000,len:12776
+15:34:25.009 > load:0x40080400,len:3032
+15:34:25.009 > entry 0x400805e4
+15:34:25.133 > hello
+15:34:25.137 > hello
+15:34:25.256 > 0,0
+15:34:25.256 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:25.256 > 
+15:34:25.256 > Core  1 register dump:
+15:34:25.256 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:25.256 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:25.256 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:25.256 > A10     : 0x3ffc1414  A11     : 0x05005e88  A12     : 0x00000014  A13     : 0x00060023  
+15:34:25.256 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:25.256 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:25.256 > Core  1 was running in ISR context:
+15:34:25.256 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:25.256 > 
+15:34:25.256 > 
+15:34:25.256 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:25.256 > 
+15:34:25.256 > 
+15:34:25.256 > 
+15:34:25.256 > 
+15:34:25.256 > ELF file SHA256: 0000000000000000
+15:34:25.256 > 
+15:34:25.256 > Rebooting...
+15:34:25.256 > ets Jul 29 2019 12:21:46
+15:34:25.256 > 
+15:34:25.256 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:25.256 > configsip: 0, SPIWP:0xee
+15:34:25.256 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:25.256 > mode:DIO, clock div:2
+15:34:25.256 > load:0x3fff0030,len:1184
+15:34:25.256 > load:0x40078000,len:12776
+15:34:25.256 > load:0x40080400,len:3032
+15:34:25.256 > entry 0x400805e4
+15:34:25.382 > hello
+15:34:25.382 > hello
+15:34:25.502 > 0,0
+15:34:25.502 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:25.502 > 
+15:34:25.502 > Core  1 register dump:
+15:34:25.502 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:25.502 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:25.502 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:25.502 > A10     : 0x3ffc1414  A11     : 0x050085ac  A12     : 0x00000014  A13     : 0x00060023  
+15:34:25.502 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:25.502 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:25.502 > Core  1 was running in ISR context:
+15:34:25.502 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:25.502 > 
+15:34:25.502 > 
+15:34:25.502 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:25.502 > 
+15:34:25.502 > 
+15:34:25.502 > 
+15:34:25.502 > 
+15:34:25.502 > ELF file SHA256: 0000000000000000
+15:34:25.502 > 
+15:34:25.502 > Rebooting...
+15:34:25.502 > ets Jul 29 2019 12:21:46
+15:34:25.502 > 
+15:34:25.502 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:25.502 > configsip: 0, SPIWP:0xee
+15:34:25.502 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:25.502 > mode:DIO, clock div:2
+15:34:25.502 > load:0x3fff0030,len:1184
+15:34:25.502 > load:0x40078000,len:12776
+15:34:25.502 > load:0x40080400,len:3032
+15:34:25.502 > entry 0x400805e4
+15:34:25.632 > hello
+15:34:25.632 > hello
+15:34:25.750 > 0,0
+15:34:25.750 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:25.750 > 
+15:34:25.750 > Core  1 register dump:
+15:34:25.750 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:25.750 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:25.750 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:25.750 > A10     : 0x3ffc1414  A11     : 0x0500a528  A12     : 0x00000014  A13     : 0x00060023  
+15:34:25.750 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:25.750 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:25.750 > Core  1 was running in ISR context:
+15:34:25.750 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:25.750 > 
+15:34:25.750 > 
+15:34:25.750 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:25.750 > 
+15:34:25.750 > 
+15:34:25.750 > 
+15:34:25.750 > 
+15:34:25.750 > ELF file SHA256: 0000000000000000
+15:34:25.750 > 
+15:34:25.750 > Rebooting...
+15:34:25.750 > ets Jul 29 2019 12:21:46
+15:34:25.750 > 
+15:34:25.750 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:25.750 > configsip: 0, SPIWP:0xee
+15:34:25.750 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:25.750 > mode:DIO, clock div:2
+15:34:25.750 > load:0x3fff0030,len:1184
+15:34:25.750 > load:0x40078000,len:12776
+15:34:25.750 > load:0x40080400,len:3032
+15:34:25.750 > entry 0x400805e4
+15:34:25.878 > hello
+15:34:25.878 > hello
+15:34:25.995 > 0,0
+15:34:26.000 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:26.000 > 
+15:34:26.000 > Core  1 register dump:
+15:34:26.000 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:26.000 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:26.000 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:26.000 > A10     : 0x3ffc1414  A11     : 0x05007e18  A12     : 0x00000014  A13     : 0x00060023  
+15:34:26.000 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:26.000 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:26.000 > Core  1 was running in ISR context:
+15:34:26.000 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:26.000 > 
+15:34:26.000 > 
+15:34:26.000 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:26.000 > 
+15:34:26.000 > 
+15:34:26.000 > 
+15:34:26.000 > 
+15:34:26.000 > ELF file SHA256: 0000000000000000
+15:34:26.000 > 
+15:34:26.000 > Rebooting...
+15:34:26.000 > ets Jul 29 2019 12:21:46
+15:34:26.000 > 
+15:34:26.000 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:26.000 > configsip: 0, SPIWP:0xee
+15:34:26.000 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:26.000 > mode:DIO, clock div:2
+15:34:26.000 > load:0x3fff0030,len:1184
+15:34:26.000 > load:0x40078000,len:12776
+15:34:26.000 > load:0x40080400,len:3032
+15:34:26.000 > entry 0x400805e4
+15:34:26.124 > hello
+15:34:26.124 > hello
+15:34:26.244 > 0,0
+15:34:26.248 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:26.248 > 
+15:34:26.248 > Core  1 register dump:
+15:34:26.248 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:26.248 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:26.248 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:26.248 > A10     : 0x3ffc1414  A11     : 0x0500b11c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:26.248 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:26.248 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:26.248 > Core  1 was running in ISR context:
+15:34:26.248 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:26.248 > 
+15:34:26.248 > 
+15:34:26.248 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:26.248 > 
+15:34:26.248 > 
+15:34:26.248 > 
+15:34:26.248 > 
+15:34:26.248 > ELF file SHA256: 0000000000000000
+15:34:26.248 > 
+15:34:26.248 > Rebooting...
+15:34:26.248 > ets Jul 29 2019 12:21:46
+15:34:26.248 > 
+15:34:26.248 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:26.248 > configsip: 0, SPIWP:0xee
+15:34:26.248 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:26.248 > mode:DIO, clock div:2
+15:34:26.248 > load:0x3fff0030,len:1184
+15:34:26.248 > load:0x40078000,len:12776
+15:34:26.248 > load:0x40080400,len:3032
+15:34:26.248 > entry 0x400805e4
+15:34:26.372 > hello
+15:34:26.372 > hello
+15:34:26.491 > 0,0
+15:34:26.491 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:26.491 > 
+15:34:26.491 > Core  1 register dump:
+15:34:26.491 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:26.491 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:26.491 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:26.491 > A10     : 0x3ffc1414  A11     : 0x05003fe8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:26.491 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:26.491 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:26.491 > Core  1 was running in ISR context:
+15:34:26.491 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:26.491 > 
+15:34:26.491 > 
+15:34:26.491 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:26.491 > 
+15:34:26.491 > 
+15:34:26.491 > 
+15:34:26.491 > 
+15:34:26.491 > ELF file SHA256: 0000000000000000
+15:34:26.491 > 
+15:34:26.491 > Rebooting...
+15:34:26.491 > ets Jul 29 2019 12:21:46
+15:34:26.491 > 
+15:34:26.491 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:26.491 > configsip: 0, SPIWP:0xee
+15:34:26.491 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:26.491 > mode:DIO, clock div:2
+15:34:26.491 > load:0x3fff0030,len:1184
+15:34:26.491 > load:0x40078000,len:12776
+15:34:26.491 > load:0x40080400,len:3032
+15:34:26.491 > entry 0x400805e4
+15:34:26.620 > hello
+15:34:26.620 > hello
+15:34:26.740 > 0,0
+15:34:26.740 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:26.740 > 
+15:34:26.740 > Core  1 register dump:
+15:34:26.740 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:26.740 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:26.740 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:26.740 > A10     : 0x3ffc1414  A11     : 0x05002c4c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:26.740 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:26.740 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:26.740 > Core  1 was running in ISR context:
+15:34:26.740 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:26.740 > 
+15:34:26.740 > 
+15:34:26.740 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:26.740 > 
+15:34:26.740 > 
+15:34:26.740 > 
+15:34:26.740 > 
+15:34:26.740 > ELF file SHA256: 0000000000000000
+15:34:26.740 > 
+15:34:26.740 > Rebooting...
+15:34:26.740 > ets Jul 29 2019 12:21:46
+15:34:26.740 > 
+15:34:26.740 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:26.740 > configsip: 0, SPIWP:0xee
+15:34:26.740 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:26.740 > mode:DIO, clock div:2
+15:34:26.740 > load:0x3fff0030,len:1184
+15:34:26.740 > load:0x40078000,len:12776
+15:34:26.740 > load:0x40080400,len:3032
+15:34:26.740 > entry 0x400805e4
+15:34:26.868 > hello
+15:34:26.868 > hello
+15:34:26.989 > 0,0
+15:34:26.989 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:26.989 > 
+15:34:26.989 > Core  1 register dump:
+15:34:26.989 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:26.989 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:26.989 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:26.989 > A10     : 0x3ffc1414  A11     : 0x05007148  A12     : 0x00000014  A13     : 0x00060023  
+15:34:26.989 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:26.989 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:26.989 > Core  1 was running in ISR context:
+15:34:26.989 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:26.989 > 
+15:34:26.989 > 
+15:34:26.989 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:26.989 > 
+15:34:26.989 > 
+15:34:26.989 > 
+15:34:26.989 > 
+15:34:26.989 > ELF file SHA256: 0000000000000000
+15:34:26.989 > 
+15:34:26.989 > Rebooting...
+15:34:26.989 > ets Jul 29 2019 12:21:46
+15:34:26.989 > 
+15:34:26.989 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:26.989 > configsip: 0, SPIWP:0xee
+15:34:26.989 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:26.989 > mode:DIO, clock div:2
+15:34:26.989 > load:0x3fff0030,len:1184
+15:34:26.989 > load:0x40078000,len:12776
+15:34:26.989 > load:0x40080400,len:3032
+15:34:26.989 > entry 0x400805e4
+15:34:27.117 > hello
+15:34:27.118 > hello
+15:34:27.235 > 0,0
+15:34:27.236 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:27.236 > 
+15:34:27.236 > Core  1 register dump:
+15:34:27.236 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:27.236 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:27.236 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:27.236 > A10     : 0x3ffc1414  A11     : 0x05004d80  A12     : 0x00000014  A13     : 0x00060023  
+15:34:27.236 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:27.236 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:27.236 > Core  1 was running in ISR context:
+15:34:27.236 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:27.236 > 
+15:34:27.236 > 
+15:34:27.236 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:27.236 > 
+15:34:27.236 > 
+15:34:27.236 > 
+15:34:27.236 > 
+15:34:27.236 > ELF file SHA256: 0000000000000000
+15:34:27.236 > 
+15:34:27.236 > Rebooting...
+15:34:27.236 > ets Jul 29 2019 12:21:46
+15:34:27.236 > 
+15:34:27.236 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:27.236 > configsip: 0, SPIWP:0xee
+15:34:27.236 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:27.236 > mode:DIO, clock div:2
+15:34:27.236 > load:0x3fff0030,len:1184
+15:34:27.236 > load:0x40078000,len:12776
+15:34:27.236 > load:0x40080400,len:3032
+15:34:27.236 > entry 0x400805e4
+15:34:27.362 > hello
+15:34:27.362 > hello
+15:34:27.485 > 0,0
+15:34:27.485 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:27.485 > 
+15:34:27.485 > Core  1 register dump:
+15:34:27.485 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:27.485 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:27.485 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:27.485 > A10     : 0x3ffc1414  A11     : 0x0500bf90  A12     : 0x00000014  A13     : 0x00060023  
+15:34:27.485 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:27.485 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:27.485 > Core  1 was running in ISR context:
+15:34:27.485 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:27.485 > 
+15:34:27.485 > 
+15:34:27.485 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:27.485 > 
+15:34:27.485 > 
+15:34:27.485 > 
+15:34:27.485 > 
+15:34:27.485 > ELF file SHA256: 0000000000000000
+15:34:27.485 > 
+15:34:27.485 > Rebooting...
+15:34:27.485 > ets Jul 29 2019 12:21:46
+15:34:27.485 > 
+15:34:27.485 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:27.485 > configsip: 0, SPIWP:0xee
+15:34:27.485 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:27.485 > mode:DIO, clock div:2
+15:34:27.485 > load:0x3fff0030,len:1184
+15:34:27.485 > load:0x40078000,len:12776
+15:34:27.485 > load:0x40080400,len:3032
+15:34:27.485 > entry 0x400805e4
+15:34:27.611 > hello
+15:34:27.611 > hello
+15:34:27.731 > 0,0
+15:34:27.731 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:27.731 > 
+15:34:27.731 > Core  1 register dump:
+15:34:27.731 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:27.731 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:27.731 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:27.731 > A10     : 0x3ffc1414  A11     : 0x0500f014  A12     : 0x00000014  A13     : 0x00060023  
+15:34:27.731 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:27.731 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:27.731 > Core  1 was running in ISR context:
+15:34:27.731 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:27.731 > 
+15:34:27.731 > 
+15:34:27.731 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:27.731 > 
+15:34:27.731 > 
+15:34:27.731 > 
+15:34:27.731 > 
+15:34:27.731 > ELF file SHA256: 0000000000000000
+15:34:27.731 > 
+15:34:27.731 > Rebooting...
+15:34:27.731 > ets Jul 29 2019 12:21:46
+15:34:27.731 > 
+15:34:27.731 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:27.731 > configsip: 0, SPIWP:0xee
+15:34:27.731 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:27.731 > mode:DIO, clock div:2
+15:34:27.731 > load:0x3fff0030,len:1184
+15:34:27.731 > load:0x40078000,len:12776
+15:34:27.731 > load:0x40080400,len:3032
+15:34:27.731 > entry 0x400805e4
+15:34:27.857 > hello
+15:34:27.857 > hello
+15:34:27.978 > 0,0
+15:34:27.978 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:27.978 > 
+15:34:27.978 > Core  1 register dump:
+15:34:27.978 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:27.978 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:27.978 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:27.978 > A10     : 0x3ffc1414  A11     : 0x05009358  A12     : 0x00000014  A13     : 0x00060023  
+15:34:27.978 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:27.978 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:27.978 > Core  1 was running in ISR context:
+15:34:27.978 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:27.978 > 
+15:34:27.978 > 
+15:34:27.978 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:27.978 > 
+15:34:27.978 > 
+15:34:27.978 > 
+15:34:27.978 > 
+15:34:27.978 > ELF file SHA256: 0000000000000000
+15:34:27.978 > 
+15:34:27.978 > Rebooting...
+15:34:27.978 > ets Jul 29 2019 12:21:46
+15:34:27.978 > 
+15:34:27.978 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:27.978 > configsip: 0, SPIWP:0xee
+15:34:27.978 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:27.978 > mode:DIO, clock div:2
+15:34:27.978 > load:0x3fff0030,len:1184
+15:34:27.978 > load:0x40078000,len:12776
+15:34:27.978 > load:0x40080400,len:3032
+15:34:27.978 > entry 0x400805e4
+15:34:28.106 > hello
+15:34:28.107 > hello
+15:34:28.225 > 0,0
+15:34:28.225 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:28.225 > 
+15:34:28.225 > Core  1 register dump:
+15:34:28.225 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:28.225 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:28.225 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:28.225 > A10     : 0x3ffc1414  A11     : 0x05007594  A12     : 0x00000014  A13     : 0x00060023  
+15:34:28.225 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:28.225 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:28.225 > Core  1 was running in ISR context:
+15:34:28.225 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:28.225 > 
+15:34:28.225 > 
+15:34:28.225 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:28.225 > 
+15:34:28.225 > 
+15:34:28.225 > 
+15:34:28.225 > 
+15:34:28.225 > ELF file SHA256: 0000000000000000
+15:34:28.225 > 
+15:34:28.225 > Rebooting...
+15:34:28.225 > ets Jul 29 2019 12:21:46
+15:34:28.225 > 
+15:34:28.225 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:28.225 > configsip: 0, SPIWP:0xee
+15:34:28.225 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:28.225 > mode:DIO, clock div:2
+15:34:28.225 > load:0x3fff0030,len:1184
+15:34:28.225 > load:0x40078000,len:12776
+15:34:28.225 > load:0x40080400,len:3032
+15:34:28.225 > entry 0x400805e4
+15:34:28.349 > hello
+15:34:28.354 > hello
+15:34:28.472 > 0,0
+15:34:28.474 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:28.474 > 
+15:34:28.474 > Core  1 register dump:
+15:34:28.474 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:28.474 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:28.474 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:28.474 > A10     : 0x3ffc1414  A11     : 0x050063b0  A12     : 0x00000014  A13     : 0x00060023  
+15:34:28.474 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:28.474 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:28.474 > Core  1 was running in ISR context:
+15:34:28.474 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:28.474 > 
+15:34:28.474 > 
+15:34:28.474 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:28.474 > 
+15:34:28.474 > 
+15:34:28.474 > 
+15:34:28.474 > 
+15:34:28.474 > ELF file SHA256: 0000000000000000
+15:34:28.474 > 
+15:34:28.474 > Rebooting...
+15:34:28.474 > ets Jul 29 2019 12:21:46
+15:34:28.474 > 
+15:34:28.474 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:28.474 > configsip: 0, SPIWP:0xee
+15:34:28.474 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:28.474 > mode:DIO, clock div:2
+15:34:28.474 > load:0x3fff0030,len:1184
+15:34:28.474 > load:0x40078000,len:12776
+15:34:28.474 > load:0x40080400,len:3032
+15:34:28.474 > entry 0x400805e4
+15:34:28.598 > hello
+15:34:28.598 > hello
+15:34:28.720 > 0,0
+15:34:28.721 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:28.721 > 
+15:34:28.721 > Core  1 register dump:
+15:34:28.721 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:28.721 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:28.721 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:28.721 > A10     : 0x3ffc1414  A11     : 0x050083f4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:28.721 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:28.721 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:28.721 > Core  1 was running in ISR context:
+15:34:28.721 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:28.721 > 
+15:34:28.721 > 
+15:34:28.721 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:28.721 > 
+15:34:28.721 > 
+15:34:28.721 > 
+15:34:28.721 > 
+15:34:28.721 > ELF file SHA256: 0000000000000000
+15:34:28.721 > 
+15:34:28.721 > Rebooting...
+15:34:28.721 > ets Jul 29 2019 12:21:46
+15:34:28.721 > 
+15:34:28.721 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:28.721 > configsip: 0, SPIWP:0xee
+15:34:28.721 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:28.721 > mode:DIO, clock div:2
+15:34:28.721 > load:0x3fff0030,len:1184
+15:34:28.721 > load:0x40078000,len:12776
+15:34:28.721 > load:0x40080400,len:3032
+15:34:28.721 > entry 0x400805e4
+15:34:28.847 > hello
+15:34:28.847 > hello
+15:34:28.967 > 0,0
+15:34:28.967 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:28.967 > 
+15:34:28.967 > Core  1 register dump:
+15:34:28.967 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:28.967 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:28.967 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:28.967 > A10     : 0x3ffc1414  A11     : 0x05009bdc  A12     : 0x00000014  A13     : 0x00060023  
+15:34:28.967 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:28.967 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:28.967 > Core  1 was running in ISR context:
+15:34:28.967 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:28.967 > 
+15:34:28.967 > 
+15:34:28.967 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:28.967 > 
+15:34:28.967 > 
+15:34:28.967 > 
+15:34:28.967 > 
+15:34:28.967 > ELF file SHA256: 0000000000000000
+15:34:28.967 > 
+15:34:28.967 > Rebooting...
+15:34:28.967 > ets Jul 29 2019 12:21:46
+15:34:28.967 > 
+15:34:28.967 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:28.967 > configsip: 0, SPIWP:0xee
+15:34:28.967 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:28.967 > mode:DIO, clock div:2
+15:34:28.967 > load:0x3fff0030,len:1184
+15:34:28.967 > load:0x40078000,len:12776
+15:34:28.967 > load:0x40080400,len:3032
+15:34:28.967 > entry 0x400805e4
+15:34:29.095 > hello
+15:34:29.095 > hello
+15:34:29.214 > 0,0
+15:34:29.214 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:29.214 > 
+15:34:29.214 > Core  1 register dump:
+15:34:29.214 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:29.214 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:29.214 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:29.214 > A10     : 0x3ffc1414  A11     : 0x05007e04  A12     : 0x00000014  A13     : 0x00060023  
+15:34:29.214 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:29.214 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:29.214 > Core  1 was running in ISR context:
+15:34:29.214 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:29.214 > 
+15:34:29.214 > 
+15:34:29.214 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:29.214 > 
+15:34:29.214 > 
+15:34:29.214 > 
+15:34:29.214 > 
+15:34:29.214 > ELF file SHA256: 0000000000000000
+15:34:29.214 > 
+15:34:29.214 > Rebooting...
+15:34:29.214 > ets Jul 29 2019 12:21:46
+15:34:29.214 > 
+15:34:29.214 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:29.214 > configsip: 0, SPIWP:0xee
+15:34:29.214 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:29.214 > mode:DIO, clock div:2
+15:34:29.214 > load:0x3fff0030,len:1184
+15:34:29.214 > load:0x40078000,len:12776
+15:34:29.214 > load:0x40080400,len:3032
+15:34:29.214 > entry 0x400805e4
+15:34:29.342 > hello
+15:34:29.342 > hello
+15:34:29.461 > 0,0
+15:34:29.461 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:29.461 > 
+15:34:29.461 > Core  1 register dump:
+15:34:29.461 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:29.461 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:29.461 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:29.461 > A10     : 0x3ffc1414  A11     : 0x050079cc  A12     : 0x00000014  A13     : 0x00060023  
+15:34:29.461 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:29.461 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:29.461 > Core  1 was running in ISR context:
+15:34:29.461 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:29.461 > 
+15:34:29.461 > 
+15:34:29.461 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:29.461 > 
+15:34:29.461 > 
+15:34:29.461 > 
+15:34:29.461 > 
+15:34:29.461 > ELF file SHA256: 0000000000000000
+15:34:29.461 > 
+15:34:29.461 > Rebooting...
+15:34:29.461 > ets Jul 29 2019 12:21:46
+15:34:29.461 > 
+15:34:29.461 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:29.461 > configsip: 0, SPIWP:0xee
+15:34:29.461 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:29.461 > mode:DIO, clock div:2
+15:34:29.461 > load:0x3fff0030,len:1184
+15:34:29.461 > load:0x40078000,len:12776
+15:34:29.461 > load:0x40080400,len:3032
+15:34:29.461 > entry 0x400805e4
+15:34:29.587 > hello
+15:34:29.587 > hello
+15:34:29.709 > 0,0
+15:34:29.710 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:29.710 > 
+15:34:29.710 > Core  1 register dump:
+15:34:29.710 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:29.710 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:29.710 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:29.710 > A10     : 0x3ffc1414  A11     : 0x05009420  A12     : 0x00000014  A13     : 0x00060023  
+15:34:29.710 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:29.710 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:29.710 > Core  1 was running in ISR context:
+15:34:29.710 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:29.710 > 
+15:34:29.710 > 
+15:34:29.710 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:29.710 > 
+15:34:29.710 > 
+15:34:29.710 > 
+15:34:29.710 > 
+15:34:29.710 > ELF file SHA256: 0000000000000000
+15:34:29.710 > 
+15:34:29.710 > Rebooting...
+15:34:29.710 > ets Jul 29 2019 12:21:46
+15:34:29.710 > 
+15:34:29.710 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:29.710 > configsip: 0, SPIWP:0xee
+15:34:29.710 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:29.710 > mode:DIO, clock div:2
+15:34:29.710 > load:0x3fff0030,len:1184
+15:34:29.710 > load:0x40078000,len:12776
+15:34:29.710 > load:0x40080400,len:3032
+15:34:29.710 > entry 0x400805e4
+15:34:29.837 > hello
+15:34:29.837 > hello
+15:34:29.956 > 0,0
+15:34:29.956 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:29.956 > 
+15:34:29.956 > Core  1 register dump:
+15:34:29.956 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:29.956 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:29.956 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:29.956 > A10     : 0x3ffc1414  A11     : 0x0500706c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:29.956 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:29.956 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:29.956 > Core  1 was running in ISR context:
+15:34:29.956 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:29.956 > 
+15:34:29.956 > 
+15:34:29.956 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:29.956 > 
+15:34:29.956 > 
+15:34:29.956 > 
+15:34:29.956 > 
+15:34:29.956 > ELF file SHA256: 0000000000000000
+15:34:29.956 > 
+15:34:29.956 > Rebooting...
+15:34:29.956 > ets Jul 29 2019 12:21:46
+15:34:29.956 > 
+15:34:29.956 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:29.956 > configsip: 0, SPIWP:0xee
+15:34:29.956 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:29.956 > mode:DIO, clock div:2
+15:34:29.956 > load:0x3fff0030,len:1184
+15:34:29.956 > load:0x40078000,len:12776
+15:34:29.956 > load:0x40080400,len:3032
+15:34:29.956 > entry 0x400805e4
+15:34:30.081 > hello
+15:34:30.085 > hello
+15:34:30.200 > 0,0
+15:34:30.204 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:30.204 > 
+15:34:30.204 > Core  1 register dump:
+15:34:30.204 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:30.204 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:30.204 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:30.204 > A10     : 0x3ffc1414  A11     : 0x050091a0  A12     : 0x00000014  A13     : 0x00060023  
+15:34:30.204 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:30.204 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:30.204 > Core  1 was running in ISR context:
+15:34:30.204 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:30.204 > 
+15:34:30.204 > 
+15:34:30.204 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:30.204 > 
+15:34:30.204 > 
+15:34:30.204 > 
+15:34:30.204 > 
+15:34:30.204 > ELF file SHA256: 0000000000000000
+15:34:30.204 > 
+15:34:30.204 > Rebooting...
+15:34:30.204 > ets Jul 29 2019 12:21:46
+15:34:30.204 > 
+15:34:30.204 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:30.204 > configsip: 0, SPIWP:0xee
+15:34:30.204 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:30.204 > mode:DIO, clock div:2
+15:34:30.204 > load:0x3fff0030,len:1184
+15:34:30.204 > load:0x40078000,len:12776
+15:34:30.204 > load:0x40080400,len:3032
+15:34:30.204 > entry 0x400805e4
+15:34:30.331 > hello
+15:34:30.331 > hello
+15:34:30.449 > 0,0
+15:34:30.449 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:30.449 > 
+15:34:30.449 > Core  1 register dump:
+15:34:30.449 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:30.449 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:30.449 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:30.449 > A10     : 0x3ffc1414  A11     : 0x050061e4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:30.449 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:30.449 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:30.449 > Core  1 was running in ISR context:
+15:34:30.449 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:30.449 > 
+15:34:30.449 > 
+15:34:30.449 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:30.449 > 
+15:34:30.449 > 
+15:34:30.449 > 
+15:34:30.449 > 
+15:34:30.449 > ELF file SHA256: 0000000000000000
+15:34:30.449 > 
+15:34:30.449 > Rebooting...
+15:34:30.449 > ets Jul 29 2019 12:21:46
+15:34:30.449 > 
+15:34:30.449 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:30.449 > configsip: 0, SPIWP:0xee
+15:34:30.449 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:30.449 > mode:DIO, clock div:2
+15:34:30.449 > load:0x3fff0030,len:1184
+15:34:30.449 > load:0x40078000,len:12776
+15:34:30.449 > load:0x40080400,len:3032
+15:34:30.449 > entry 0x400805e4
+15:34:30.576 > hello
+15:34:30.580 > hello
+15:34:30.698 > 0,0
+15:34:30.698 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:30.698 > 
+15:34:30.698 > Core  1 register dump:
+15:34:30.698 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:30.698 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:30.698 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:30.698 > A10     : 0x3ffc1414  A11     : 0x0500a53c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:30.698 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:30.698 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:30.698 > Core  1 was running in ISR context:
+15:34:30.698 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:30.698 > 
+15:34:30.698 > 
+15:34:30.698 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:30.698 > 
+15:34:30.698 > 
+15:34:30.698 > 
+15:34:30.698 > 
+15:34:30.698 > ELF file SHA256: 0000000000000000
+15:34:30.698 > 
+15:34:30.698 > Rebooting...
+15:34:30.698 > ets Jul 29 2019 12:21:46
+15:34:30.698 > 
+15:34:30.698 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:30.698 > configsip: 0, SPIWP:0xee
+15:34:30.698 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:30.698 > mode:DIO, clock div:2
+15:34:30.698 > load:0x3fff0030,len:1184
+15:34:30.698 > load:0x40078000,len:12776
+15:34:30.698 > load:0x40080400,len:3032
+15:34:30.698 > entry 0x400805e4
+15:34:30.825 > hello
+15:34:30.825 > hello
+15:34:30.943 > 0,0
+15:34:30.947 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:30.947 > 
+15:34:30.947 > Core  1 register dump:
+15:34:30.947 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:30.947 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:30.947 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:30.947 > A10     : 0x3ffc1414  A11     : 0x0500a2a8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:30.947 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:30.947 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:30.947 > Core  1 was running in ISR context:
+15:34:30.947 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:30.947 > 
+15:34:30.947 > 
+15:34:30.947 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:30.947 > 
+15:34:30.947 > 
+15:34:30.947 > 
+15:34:30.947 > 
+15:34:30.947 > ELF file SHA256: 0000000000000000
+15:34:30.947 > 
+15:34:30.947 > Rebooting...
+15:34:30.947 > ets Jul 29 2019 12:21:46
+15:34:30.947 > 
+15:34:30.947 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:30.947 > configsip: 0, SPIWP:0xee
+15:34:30.947 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:30.947 > mode:DIO, clock div:2
+15:34:30.947 > load:0x3fff0030,len:1184
+15:34:30.947 > load:0x40078000,len:12776
+15:34:30.947 > load:0x40080400,len:3032
+15:34:30.947 > entry 0x400805e4
+15:34:31.074 > hello
+15:34:31.074 > hello
+15:34:31.193 > 0,0
+15:34:31.193 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:31.193 > 
+15:34:31.193 > Core  1 register dump:
+15:34:31.193 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:31.193 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:31.193 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:31.193 > A10     : 0x3ffc1414  A11     : 0x05008bb0  A12     : 0x00000014  A13     : 0x00060023  
+15:34:31.193 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:31.193 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:31.193 > Core  1 was running in ISR context:
+15:34:31.193 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:31.193 > 
+15:34:31.193 > 
+15:34:31.193 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:31.193 > 
+15:34:31.193 > 
+15:34:31.193 > 
+15:34:31.193 > 
+15:34:31.193 > ELF file SHA256: 0000000000000000
+15:34:31.193 > 
+15:34:31.193 > Rebooting...
+15:34:31.193 > ets Jul 29 2019 12:21:46
+15:34:31.193 > 
+15:34:31.193 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:31.193 > configsip: 0, SPIWP:0xee
+15:34:31.193 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:31.193 > mode:DIO, clock div:2
+15:34:31.193 > load:0x3fff0030,len:1184
+15:34:31.193 > load:0x40078000,len:12776
+15:34:31.193 > load:0x40080400,len:3032
+15:34:31.193 > entry 0x400805e4
+15:34:31.318 > hello
+15:34:31.322 > hello
+15:34:31.439 > 0,0
+15:34:31.439 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:31.439 > 
+15:34:31.439 > Core  1 register dump:
+15:34:31.439 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:31.439 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:31.439 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:31.439 > A10     : 0x3ffc1414  A11     : 0x0500869c  A12     : 0x00000014  A13     : 0x00060023  
+15:34:31.439 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:31.439 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:31.439 > Core  1 was running in ISR context:
+15:34:31.439 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:31.439 > 
+15:34:31.439 > 
+15:34:31.439 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:31.439 > 
+15:34:31.439 > 
+15:34:31.439 > 
+15:34:31.439 > 
+15:34:31.439 > ELF file SHA256: 0000000000000000
+15:34:31.439 > 
+15:34:31.439 > Rebooting...
+15:34:31.439 > ets Jul 29 2019 12:21:46
+15:34:31.439 > 
+15:34:31.439 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:31.439 > configsip: 0, SPIWP:0xee
+15:34:31.439 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:31.439 > mode:DIO, clock div:2
+15:34:31.439 > load:0x3fff0030,len:1184
+15:34:31.439 > load:0x40078000,len:12776
+15:34:31.439 > load:0x40080400,len:3032
+15:34:31.439 > entry 0x400805e4
+15:34:31.565 > hello
+15:34:31.565 > hello
+15:34:31.687 > 0,0
+15:34:31.687 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:31.687 > 
+15:34:31.687 > Core  1 register dump:
+15:34:31.687 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:31.687 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:31.687 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:31.687 > A10     : 0x3ffc1414  A11     : 0x05008e30  A12     : 0x00000014  A13     : 0x00060023  
+15:34:31.687 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:31.687 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:31.687 > Core  1 was running in ISR context:
+15:34:31.687 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:31.687 > 
+15:34:31.687 > 
+15:34:31.687 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:31.687 > 
+15:34:31.687 > 
+15:34:31.687 > 
+15:34:31.687 > 
+15:34:31.687 > ELF file SHA256: 0000000000000000
+15:34:31.687 > 
+15:34:31.687 > Rebooting...
+15:34:31.687 > ets Jul 29 2019 12:21:46
+15:34:31.687 > 
+15:34:31.687 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:31.687 > configsip: 0, SPIWP:0xee
+15:34:31.687 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:31.687 > mode:DIO, clock div:2
+15:34:31.687 > load:0x3fff0030,len:1184
+15:34:31.687 > load:0x40078000,len:12776
+15:34:31.687 > load:0x40080400,len:3032
+15:34:31.687 > entry 0x400805e4
+15:34:31.815 > hello
+15:34:31.815 > hello
+15:34:31.934 > 0,0
+15:34:31.934 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:31.934 > 
+15:34:31.934 > Core  1 register dump:
+15:34:31.934 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:31.934 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:31.934 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:31.934 > A10     : 0x3ffc1414  A11     : 0x050040c4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:31.934 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:31.934 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:31.934 > Core  1 was running in ISR context:
+15:34:31.934 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:31.934 > 
+15:34:31.934 > 
+15:34:31.934 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:31.934 > 
+15:34:31.934 > 
+15:34:31.934 > 
+15:34:31.934 > 
+15:34:31.934 > ELF file SHA256: 0000000000000000
+15:34:31.934 > 
+15:34:31.934 > Rebooting...
+15:34:31.934 > ets Jul 29 2019 12:21:46
+15:34:31.934 > 
+15:34:31.934 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:31.934 > configsip: 0, SPIWP:0xee
+15:34:31.934 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:31.934 > mode:DIO, clock div:2
+15:34:31.934 > load:0x3fff0030,len:1184
+15:34:31.934 > load:0x40078000,len:12776
+15:34:31.934 > load:0x40080400,len:3032
+15:34:31.934 > entry 0x400805e4
+15:34:32.063 > hello
+15:34:32.063 > hello
+15:34:32.183 > 0,0
+15:34:32.183 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:32.183 > 
+15:34:32.183 > Core  1 register dump:
+15:34:32.183 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:32.183 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:32.183 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:32.183 > A10     : 0x3ffc1414  A11     : 0x050085ac  A12     : 0x00000014  A13     : 0x00060023  
+15:34:32.183 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:32.183 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:32.183 > Core  1 was running in ISR context:
+15:34:32.183 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:32.183 > 
+15:34:32.183 > 
+15:34:32.183 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:32.183 > 
+15:34:32.183 > 
+15:34:32.183 > 
+15:34:32.183 > 
+15:34:32.183 > ELF file SHA256: 0000000000000000
+15:34:32.183 > 
+15:34:32.183 > Rebooting...
+15:34:32.183 > ets Jul 29 2019 12:21:46
+15:34:32.183 > 
+15:34:32.183 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:32.183 > configsip: 0, SPIWP:0xee
+15:34:32.183 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:32.183 > mode:DIO, clock div:2
+15:34:32.183 > load:0x3fff0030,len:1184
+15:34:32.183 > load:0x40078000,len:12776
+15:34:32.183 > load:0x40080400,len:3032
+15:34:32.183 > entry 0x400805e4
+15:34:32.311 > hello
+15:34:32.311 > hello
+15:34:32.428 > 0,0
+15:34:32.428 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:32.428 > 
+15:34:32.428 > Core  1 register dump:
+15:34:32.428 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:32.428 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:32.428 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:32.428 > A10     : 0x3ffc1414  A11     : 0x050090c4  A12     : 0x00000014  A13     : 0x00060023  
+15:34:32.428 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:32.428 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:32.428 > Core  1 was running in ISR context:
+15:34:32.428 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:32.428 > 
+15:34:32.428 > 
+15:34:32.428 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:32.428 > 
+15:34:32.428 > 
+15:34:32.428 > 
+15:34:32.428 > 
+15:34:32.428 > ELF file SHA256: 0000000000000000
+15:34:32.428 > 
+15:34:32.428 > Rebooting...
+15:34:32.428 > ets Jul 29 2019 12:21:46
+15:34:32.428 > 
+15:34:32.428 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:32.428 > configsip: 0, SPIWP:0xee
+15:34:32.428 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:32.428 > mode:DIO, clock div:2
+15:34:32.428 > load:0x3fff0030,len:1184
+15:34:32.428 > load:0x40078000,len:12776
+15:34:32.428 > load:0x40080400,len:3032
+15:34:32.428 > entry 0x400805e4
+15:34:32.555 > hello
+15:34:32.555 > hello
+15:34:32.677 > 0,0
+15:34:32.677 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:32.677 > 
+15:34:32.677 > Core  1 register dump:
+15:34:32.677 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:32.677 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:32.677 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:32.677 > A10     : 0x3ffc1414  A11     : 0x05005a50  A12     : 0x00000014  A13     : 0x00060023  
+15:34:32.677 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:32.677 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:32.677 > Core  1 was running in ISR context:
+15:34:32.677 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:32.677 > 
+15:34:32.677 > 
+15:34:32.677 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:32.677 > 
+15:34:32.677 > 
+15:34:32.677 > 
+15:34:32.677 > 
+15:34:32.677 > ELF file SHA256: 0000000000000000
+15:34:32.677 > 
+15:34:32.677 > Rebooting...
+15:34:32.677 > ets Jul 29 2019 12:21:46
+15:34:32.677 > 
+15:34:32.677 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:32.677 > configsip: 0, SPIWP:0xee
+15:34:32.677 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:32.677 > mode:DIO, clock div:2
+15:34:32.677 > load:0x3fff0030,len:1184
+15:34:32.677 > load:0x40078000,len:12776
+15:34:32.677 > load:0x40080400,len:3032
+15:34:32.677 > entry 0x400805e4
+15:34:32.804 > hello
+15:34:32.804 > hello
+15:34:32.921 > 0,0
+15:34:32.921 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:32.921 > 
+15:34:32.921 > Core  1 register dump:
+15:34:32.921 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:32.921 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:32.921 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:32.921 > A10     : 0x3ffc1414  A11     : 0x05006c34  A12     : 0x00000014  A13     : 0x00060023  
+15:34:32.921 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:32.921 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:32.921 > Core  1 was running in ISR context:
+15:34:32.921 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:32.921 > 
+15:34:32.921 > 
+15:34:32.921 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:32.921 > 
+15:34:32.921 > 
+15:34:32.921 > 
+15:34:32.921 > 
+15:34:32.921 > ELF file SHA256: 0000000000000000
+15:34:32.921 > 
+15:34:32.921 > Rebooting...
+15:34:32.921 > ets Jul 29 2019 12:21:46
+15:34:32.921 > 
+15:34:32.921 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:32.921 > configsip: 0, SPIWP:0xee
+15:34:32.921 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:32.921 > mode:DIO, clock div:2
+15:34:32.921 > load:0x3fff0030,len:1184
+15:34:32.921 > load:0x40078000,len:12776
+15:34:32.921 > load:0x40080400,len:3032
+15:34:32.921 > entry 0x400805e4
+15:34:33.051 > hello
+15:34:33.051 > hello
+15:34:33.171 > 0,0
+15:34:33.171 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:33.171 > 
+15:34:33.171 > Core  1 register dump:
+15:34:33.171 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:33.171 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:33.171 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:33.171 > A10     : 0x3ffc1414  A11     : 0x05008fe8  A12     : 0x00000014  A13     : 0x00060023  
+15:34:33.171 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:33.171 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:33.171 > Core  1 was running in ISR context:
+15:34:33.171 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:33.171 > 
+15:34:33.171 > 
+15:34:33.171 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:33.171 > 
+15:34:33.171 > 
+15:34:33.171 > 
+15:34:33.171 > 
+15:34:33.171 > ELF file SHA256: 0000000000000000
+15:34:33.171 > 
+15:34:33.171 > Rebooting...
+15:34:33.171 > ets Jul 29 2019 12:21:46
+15:34:33.171 > 
+15:34:33.171 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:33.171 > configsip: 0, SPIWP:0xee
+15:34:33.171 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:33.171 > mode:DIO, clock div:2
+15:34:33.171 > load:0x3fff0030,len:1184
+15:34:33.171 > load:0x40078000,len:12776
+15:34:33.171 > load:0x40080400,len:3032
+15:34:33.171 > entry 0x400805e4
+15:34:33.300 > hello
+15:34:33.300 > hello
+15:34:33.418 > 0,0
+15:34:33.418 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:33.418 > 
+15:34:33.418 > Core  1 register dump:
+15:34:33.418 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:33.418 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:33.418 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:33.418 > A10     : 0x3ffc1414  A11     : 0x0500a604  A12     : 0x00000014  A13     : 0x00060023  
+15:34:33.418 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:33.418 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:33.418 > Core  1 was running in ISR context:
+15:34:33.418 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:33.418 > 
+15:34:33.418 > 
+15:34:33.418 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:33.418 > 
+15:34:33.418 > 
+15:34:33.418 > 
+15:34:33.418 > 
+15:34:33.418 > ELF file SHA256: 0000000000000000
+15:34:33.418 > 
+15:34:33.418 > Rebooting...
+15:34:33.418 > ets Jul 29 2019 12:21:46
+15:34:33.418 > 
+15:34:33.418 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:33.418 > configsip: 0, SPIWP:0xee
+15:34:33.418 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:33.418 > mode:DIO, clock div:2
+15:34:33.418 > load:0x3fff0030,len:1184
+15:34:33.418 > load:0x40078000,len:12776
+15:34:33.418 > load:0x40080400,len:3032
+15:34:33.418 > entry 0x400805e4
+15:34:33.545 > hello
+15:34:33.545 > hello
+15:34:33.667 > 0,0
+15:34:33.667 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:33.667 > 
+15:34:33.667 > Core  1 register dump:
+15:34:33.667 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:33.667 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:33.667 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:33.667 > A10     : 0x3ffc1414  A11     : 0x05007580  A12     : 0x00000014  A13     : 0x00060023  
+15:34:33.667 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:33.667 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:33.667 > Core  1 was running in ISR context:
+15:34:33.667 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:33.667 > 
+15:34:33.667 > 
+15:34:33.667 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:33.667 > 
+15:34:33.667 > 
+15:34:33.667 > 
+15:34:33.667 > 
+15:34:33.667 > ELF file SHA256: 0000000000000000
+15:34:33.667 > 
+15:34:33.667 > Rebooting...
+15:34:33.667 > ets Jul 29 2019 12:21:46
+15:34:33.667 > 
+15:34:33.667 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:33.667 > configsip: 0, SPIWP:0xee
+15:34:33.667 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:33.667 > mode:DIO, clock div:2
+15:34:33.667 > load:0x3fff0030,len:1184
+15:34:33.667 > load:0x40078000,len:12776
+15:34:33.667 > load:0x40080400,len:3032
+15:34:33.667 > entry 0x400805e4
+15:34:33.794 > hello
+15:34:33.797 > hello
+15:34:33.911 > 0,0
+15:34:33.911 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:33.911 > 
+15:34:33.911 > Core  1 register dump:
+15:34:33.911 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:33.911 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:33.911 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:33.911 > A10     : 0x3ffc1414  A11     : 0x05009358  A12     : 0x00000014  A13     : 0x00060023  
+15:34:33.911 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:33.911 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:33.911 > Core  1 was running in ISR context:
+15:34:33.911 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:33.911 > 
+15:34:33.911 > 
+15:34:33.911 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:33.911 > 
+15:34:33.911 > 
+15:34:33.911 > 
+15:34:33.911 > 
+15:34:33.911 > ELF file SHA256: 0000000000000000
+15:34:33.911 > 
+15:34:33.911 > Rebooting...
+15:34:33.911 > ets Jul 29 2019 12:21:46
+15:34:33.911 > 
+15:34:33.911 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:33.911 > configsip: 0, SPIWP:0xee
+15:34:33.911 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:33.911 > mode:DIO, clock div:2
+15:34:33.911 > load:0x3fff0030,len:1184
+15:34:33.911 > load:0x40078000,len:12776
+15:34:33.911 > load:0x40080400,len:3032
+15:34:33.911 > entry 0x400805e4
+15:34:34.042 > hello
+15:34:34.042 > hello
+15:34:34.159 > 0,0
+15:34:34.163 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:34.163 > 
+15:34:34.163 > Core  1 register dump:
+15:34:34.163 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:34.163 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:34.163 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:34.163 > A10     : 0x3ffc1414  A11     : 0x050084d0  A12     : 0x00000014  A13     : 0x00060023  
+15:34:34.163 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:34.163 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:34.163 > Core  1 was running in ISR context:
+15:34:34.163 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:34.163 > 
+15:34:34.163 > 
+15:34:34.163 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:34.163 > 
+15:34:34.163 > 
+15:34:34.163 > 
+15:34:34.163 > 
+15:34:34.163 > ELF file SHA256: 0000000000000000
+15:34:34.163 > 
+15:34:34.163 > Rebooting...
+15:34:34.163 > ets Jul 29 2019 12:21:46
+15:34:34.163 > 
+15:34:34.163 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:34.163 > configsip: 0, SPIWP:0xee
+15:34:34.163 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:34.163 > mode:DIO, clock div:2
+15:34:34.163 > load:0x3fff0030,len:1184
+15:34:34.163 > load:0x40078000,len:12776
+15:34:34.163 > load:0x40080400,len:3032
+15:34:34.163 > entry 0x400805e4
+15:34:34.289 > hello
+15:34:34.289 > hello
+15:34:34.408 > 0,0
+15:34:34.408 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:34.408 > 
+15:34:34.408 > Core  1 register dump:
+15:34:34.408 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:34.408 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:34.408 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:34.408 > A10     : 0x3ffc1414  A11     : 0x050085ac  A12     : 0x00000014  A13     : 0x00060023  
+15:34:34.408 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:34.408 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:34.408 > Core  1 was running in ISR context:
+15:34:34.408 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:34.408 > 
+15:34:34.408 > 
+15:34:34.408 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:34.408 > 
+15:34:34.408 > 
+15:34:34.408 > 
+15:34:34.408 > 
+15:34:34.408 > ELF file SHA256: 0000000000000000
+15:34:34.408 > 
+15:34:34.408 > Rebooting...
+15:34:34.408 > ets Jul 29 2019 12:21:46
+15:34:34.408 > 
+15:34:34.408 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:34.408 > configsip: 0, SPIWP:0xee
+15:34:34.408 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:34.408 > mode:DIO, clock div:2
+15:34:34.408 > load:0x3fff0030,len:1184
+15:34:34.408 > load:0x40078000,len:12776
+15:34:34.408 > load:0x40080400,len:3032
+15:34:34.408 > entry 0x400805e4
+15:34:34.534 > hello
+15:34:34.534 > hello
+15:34:34.655 > 0,0
+15:34:34.655 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:34.655 > 
+15:34:34.655 > Core  1 register dump:
+15:34:34.655 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:34.655 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:34.655 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:34.655 > A10     : 0x3ffc1414  A11     : 0x05008764  A12     : 0x00000014  A13     : 0x00060023  
+15:34:34.655 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:34.655 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:34.655 > Core  1 was running in ISR context:
+15:34:34.655 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:34.655 > 
+15:34:34.655 > 
+15:34:34.655 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:34.655 > 
+15:34:34.655 > 
+15:34:34.655 > 
+15:34:34.655 > 
+15:34:34.655 > ELF file SHA256: 0000000000000000
+15:34:34.655 > 
+15:34:34.655 > Rebooting...
+15:34:34.655 > ets Jul 29 2019 12:21:46
+15:34:34.655 > 
+15:34:34.655 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:34.655 > configsip: 0, SPIWP:0xee
+15:34:34.655 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:34.655 > mode:DIO, clock div:2
+15:34:34.655 > load:0x3fff0030,len:1184
+15:34:34.655 > load:0x40078000,len:12776
+15:34:34.655 > load:0x40080400,len:3032
+15:34:34.655 > entry 0x400805e4
+15:34:34.785 > hello
+15:34:34.785 > hello
+15:34:34.903 > 0,0
+15:34:34.904 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:34.904 > 
+15:34:34.904 > Core  1 register dump:
+15:34:34.904 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:34.904 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:34.904 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:34.904 > A10     : 0x3ffc1414  A11     : 0x050056e0  A12     : 0x00000014  A13     : 0x00060023  
+15:34:34.904 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:34.904 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:34.904 > Core  1 was running in ISR context:
+15:34:34.904 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:34.904 > 
+15:34:34.904 > 
+15:34:34.904 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:34.904 > 
+15:34:34.904 > 
+15:34:34.904 > 
+15:34:34.904 > 
+15:34:34.904 > ELF file SHA256: 0000000000000000
+15:34:34.904 > 
+15:34:34.904 > Rebooting...
+15:34:34.904 > ets Jul 29 2019 12:21:46
+15:34:34.904 > 
+15:34:34.904 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:34.904 > configsip: 0, SPIWP:0xee
+15:34:34.904 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:34.904 > mode:DIO, clock div:2
+15:34:34.904 > load:0x3fff0030,len:1184
+15:34:34.904 > load:0x40078000,len:12776
+15:34:34.904 > load:0x40080400,len:3032
+15:34:34.904 > entry 0x400805e4
+15:34:35.027 > hello
+15:34:35.032 > hello
+15:34:35.151 > 0,0
+15:34:35.152 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:35.152 > 
+15:34:35.152 > Core  1 register dump:
+15:34:35.152 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:35.152 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:35.152 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:35.152 > A10     : 0x3ffc1414  A11     : 0x05007210  A12     : 0x00000014  A13     : 0x00060023  
+15:34:35.152 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:35.152 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:35.152 > Core  1 was running in ISR context:
+15:34:35.152 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:35.152 > 
+15:34:35.152 > 
+15:34:35.152 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:35.152 > 
+15:34:35.152 > 
+15:34:35.152 > 
+15:34:35.152 > 
+15:34:35.152 > ELF file SHA256: 0000000000000000
+15:34:35.152 > 
+15:34:35.152 > Rebooting...
+15:34:35.152 > ets Jul 29 2019 12:21:46
+15:34:35.152 > 
+15:34:35.152 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:35.152 > configsip: 0, SPIWP:0xee
+15:34:35.152 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:35.152 > mode:DIO, clock div:2
+15:34:35.152 > load:0x3fff0030,len:1184
+15:34:35.152 > load:0x40078000,len:12776
+15:34:35.152 > load:0x40080400,len:3032
+15:34:35.152 > entry 0x400805e4
+15:34:35.280 > hello
+15:34:35.280 > hello
+15:34:35.395 > 0,0
+15:34:35.399 > Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+15:34:35.399 > 
+15:34:35.399 > Core  1 register dump:
+15:34:35.399 > PC      : 0x40081464  PS      : 0x00060633  A0      : 0x80082280  A1      : 0x3ffbeedc  
+15:34:35.399 > A2      : 0x3ffc13f4  A3      : 0x3ffc12ef  A4      : 0xffffffec  A5      : 0x00060023  
+15:34:35.399 > A6      : 0x00060021  A7      : 0x00000001  A8      : 0x00000000  A9      : 0x3ffc12ec  
+15:34:35.399 > A10     : 0x3ffc1414  A11     : 0x05009a24  A12     : 0x00000014  A13     : 0x00060023  
+15:34:35.399 > A14     : 0x007bdc60  A15     : 0x003fffff  SAR     : 0x00000013  EXCCAUSE: 0x00000006  
+15:34:35.399 > EXCVADDR: 0x00000000  LBEG    : 0x40086c6c  LEND    : 0x40086c82  LCOUNT  : 0x00000000  
+15:34:35.399 > Core  1 was running in ISR context:
+15:34:35.399 > EPC1    : 0x400de2c7  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x00000000
+15:34:35.399 > 
+15:34:35.399 > 
+15:34:35.399 > Backtrace:0x40081461:0x3ffbeedc |<-CORRUPTED
+15:34:35.399 > 
+15:34:35.399 > 
+15:34:35.399 > 
+15:34:35.399 > 
+15:34:35.399 > ELF file SHA256: 0000000000000000
+15:34:35.399 > 
+15:34:35.399 > Rebooting...
+15:34:35.399 > ets Jul 29 2019 12:21:46
+15:34:35.399 > 
+15:34:35.399 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:34:35.399 > configsip: 0, SPIWP:0xee
+15:34:35.399 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:34:35.399 > mode:DIO, clock div:2
+15:34:35.399 > load:0x3fff0030,len:1184
+15:34:35.399 > load:0x40078000,len:12776
+15:34:35.399 > load:0x40080400,len:3032
+15:34:35.399 > entry 0x400805e4
