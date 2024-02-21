@@ -39,71 +39,107 @@ bool lflag = false;
 bool lflagl = true;
 bool lpsflag = false;
 bool icmflag = true;
-bool kaisanlpsflag = true;
-bool kaisanicmflag = false;
-bool kaisantimerflag = false;
+bool kaisanlpsflag = false;
+bool kaisantimerflag =true;
+bool kemuriicmflag = true;
+bool kemuritenkatyuusi = false;
+bool sequenceend = false;
 int rcount = 0;
 int bx = 0;
 int bh = 0;
 int bc = 0;
+int bkc = 0;
+int tikatikasyuuki = 500;
 int k;
 int kasokudoc;
+int kemurikasokudoc;
 u_int8_t LPS25_data[3] = {0, 0, 0};
 u_int8_t last_modified_LPS25_data[3] = {0, 0, 0};
 hw_timer_t *timer = NULL;
 u_int64_t heikina = 0;
 int frmax = 200;
 char canreceive = 0;
+bool kemurisend = false;
 IRAM_ATTR void counter() // 1msで呼ばれる
 {
-  if (risyou)
+  if (sequenceend)
   {
-    if (kaisantimerflag)
+    digitalWrite(led_pin, HIGH);
+  }
+  else
+  {
+    if (risyou)
     {
-      if (!kaisan)
+      if (kaisantimerflag)
       {
-        if (rcount > 8500)
+        if (!kaisan)
         {
-          kaisan = true;
-        }
-        rcount++;
-      }
-    }
-    if (kaisanlpsflag)
-    {
-      // 以下lpsの条件
-      if (pcount % 20 == 1)
-      {
-        lps.Get(LPS25_data);
-        for (int i = 0; i < 3; i++)
-        {
-          LPS25_data[i] = LPS25_data[i] * (1 - (20 / (frmax * 1000)) + last_modified_LPS25_data[i] * (20 / (frmax * 1000)));
-          last_modified_LPS25_data[i] = LPS25_data[i];
-        }
-        bx += ((LPS25_data[0] + LPS25_data[1] * 256 + LPS25_data[2] * 65536) * 200) / 4096; // ヘクトパスカル*200の値が格納されています
-        if (lcount == 5)
-        {
-          kiroku = (bh - bx / 5);
-          if (bh < bx / 5 && bh != 0)
+          if (rcount > 8500)
           {
-            bc++;
-            if (bc > 4)
+            kaisan = true;
+          }
+          rcount++;
+        }
+      }
+      if (kaisanlpsflag)
+      {
+        // 以下lpsの条件
+        if (pcount % 20 == 1)
+        {
+          lps.Get(LPS25_data);
+          for (int i = 0; i < 3; i++)
+          {
+            LPS25_data[i] = LPS25_data[i] * (1 - (20 / (frmax * 1000)) + last_modified_LPS25_data[i] * (20 / (frmax * 1000)));
+            last_modified_LPS25_data[i] = LPS25_data[i];
+          }
+          bx += ((LPS25_data[0] + LPS25_data[1] * 256 + LPS25_data[2] * 65536) * 200) / 4096; // ヘクトパスカル*200の値が格納されています
+          if (lcount == 5)
+          {
+            kiroku = (bh - bx / 5);
+            if (bh < bx / 5 && bh != 0)
             {
-              kaisan = true;
+              bkc++;
+              if (bkc > 4)
+              {
+                kaisan = true;
+              }
+            }
+            else
+            {
+              bkc = 0;
+            }
+            bh = bx / 5;
+            bx = 0;
+            lcount = 0;
+          }
+          lcount++;
+        }
+      }
+      if (kaisan&&kemuriicmflag)
+      {
+        int16_t ICM_data[6];
+        icm.Get(ICM_data);
+        heikina += ((ICM_data[0]) * (ICM_data[0]) + (ICM_data[1]) * (ICM_data[1]) + (ICM_data[2]) * (ICM_data[2])) * 16 * 16 / 16384 / 16384;
+        if (pcount % 20 == 19)
+        {
+          if (heikina / 20 <  9.8 * 9.8/100)
+          {
+            kemurikasokudoc++;
+            if (kemurikasokudoc > 2)
+            { // 本番は50
+              kemuritenkatyuusi = true;
+              tikatikasyuuki=250;
             }
           }
           else
           {
-            bc = 0;
+            kemurikasokudoc = 0;
           }
-          bh = bx / 5;
-          bx = 0;
-          lcount = 0;
+          heikina = 0;
         }
-        lcount++;
       }
     }
-  }else
+    else
     {
       if (lpsflag)
       {
@@ -126,7 +162,7 @@ IRAM_ATTR void counter() // 1msで呼ばれる
               if (bc > 4)
               {
                 lflag = true;
-                risyou=true;
+                risyou = true;
               }
             }
             else
@@ -165,29 +201,37 @@ IRAM_ATTR void counter() // 1msで呼ばれる
         }
       }
     }
-  pcount++;
-        // 以下LEDちかちか
-  if (pcount >= 500)
+    pcount++;
+    // 以下LEDちかちか
+    if (pcount >= tikatikasyuuki)
+    {
+      pcount = 0;
+      if ((lflag && !kaisan)||kemuritenkatyuusi)
       {
-        pcount = 0;
-        if (lflag)
+        if (lflagl)
         {
-          if (lflagl)
-          {
-            lflagl = false;
-            digitalWrite(led_pin, HIGH);
-          }
-          else
-          {
-            lflagl = true;
-            digitalWrite(led_pin, LOW);
-          }
+          lflagl = false;
+          digitalWrite(led_pin, HIGH);
         }
         else
         {
-          digitalWrite(led_pin, HIGH);
+          lflagl = true;
+          digitalWrite(led_pin, LOW);
         }
       }
+      else
+      {
+        digitalWrite(led_pin, HIGH);
+      }
+      if (kemuritenkatyuusi)
+      {
+        if (!kemurisend)
+        {
+          kemurisend = true;
+        }
+      }
+    }
+  }
 }
 void setup()
 {
@@ -226,40 +270,53 @@ void loop()
     // Serial.print(",");
     // Serial.println(pcount);
     Serial.print(heikina);
-    Serial.print(",");
-    Serial.print(kasokudoc);
-    Serial.print(",");
-    Serial.println(pcount);
-    Serial.println(icm.WhoAmI());
+    // Serial.print(",");
+    // Serial.print(kasokudoc);
+    Serial.println();
+    // Serial.println(icm.WhoAmI());
     delay(10);
+  }else{
+    Serial.println(heikina);
+      delay(100);
   }
   // Serial.print(canreceive);
-  if (CAN.available())
+  // if (CAN.available())
+  // {
+  //   char cmd = (char)CAN.read();
+  //   canreceive = cmd;
+  //   if (cmd == 'a')
+  //   {
+  //     servo1.write(90);
+  //     servo2.write(90);
+  //   }
+  //   else if (cmd == 'b')
+  //   {
+  //     servo1.write(0);
+  //     servo2.write(0);
+  //   }
+  //   else if (cmd == 'c')
+  //   {
+  //     digitalWrite(CAMERAPIN, HIGH);
+  //   }
+  //   else if (cmd == 'd')
+  //   {
+  //     digitalWrite(CAMERAPIN, LOW);
+  //   }
+  //   else if (cmd == 'e')
+  //   {
+  //     sequenceend = true;
+  //   }
+  // }
+  if(lflag){
+  if (kaisan)
   {
-    char cmd = (char)CAN.read();
-    canreceive = cmd;
-    if (cmd == 'a')
-    {
-      servo1.write(90);
-      servo2.write(90);
-    }
-    else if (cmd == 'b')
-    {
-      servo1.write(0);
-      servo2.write(0);
-    }
-    else if (cmd == 'c')
-    {
-      digitalWrite(CAMERAPIN, HIGH);
-    }
-    else if (cmd == 'd')
-    {
-      digitalWrite(CAMERAPIN, LOW);
-    }
-    CAN.sendPacket(0x13, cmd);
-  }
-  if(kaisan){
     servo1.write(90);
     servo2.write(90); // ここで開傘
+  }
+  if (kemurisend)
+  {
+    CAN.sendPacket(0x13, 'f');
+    kemurisend = false;
+  }
   }
 }
