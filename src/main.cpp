@@ -38,10 +38,10 @@ bool kaisan = false;
 bool lflag = false;
 bool lflagl = true;
 bool lpsflag = false;
-bool icmflag = true;
+bool icmflag = false;
 bool kaisanlpsflag = false;
-bool kaisantimerflag =true;
-bool kemuriicmflag = true;
+bool kaisantimerflag = false;
+bool kemuriicmflag = false;
 bool kemuritenkatyuusi = false;
 bool sequenceend = false;
 int rcount = 0;
@@ -258,6 +258,9 @@ void setup()
   servo2.attach(16);
   servo2.write(0);
 }
+void erase(){
+  flash.erase();
+}
 void loop()
 {
   if (!lflag)
@@ -269,44 +272,69 @@ void loop()
     // Serial.print(kiroku);
     // Serial.print(",");
     // Serial.println(pcount);
-    Serial.print(heikina);
+    Serial.print(icm.WhoAmI());
     // Serial.print(",");
     // Serial.print(kasokudoc);
     Serial.println();
     // Serial.println(icm.WhoAmI());
     delay(10);
   }else{
-    Serial.println(heikina);
+    //Serial.print(icm.WhoAmI());
       delay(100);
   }
-  // Serial.print(canreceive);
-  // if (CAN.available())
-  // {
-  //   char cmd = (char)CAN.read();
-  //   canreceive = cmd;
-  //   if (cmd == 'a')
-  //   {
-  //     servo1.write(90);
-  //     servo2.write(90);
-  //   }
-  //   else if (cmd == 'b')
-  //   {
-  //     servo1.write(0);
-  //     servo2.write(0);
-  //   }
-  //   else if (cmd == 'c')
-  //   {
-  //     digitalWrite(CAMERAPIN, HIGH);
-  //   }
-  //   else if (cmd == 'd')
-  //   {
-  //     digitalWrite(CAMERAPIN, LOW);
-  //   }
-  //   else if (cmd == 'e')
-  //   {
-  //     sequenceend = true;
-  //   }
-  // }
+  //Serial.print(canreceive);
+  if (CAN.available())
+  {
+    char cmd = (char)CAN.read();
+    canreceive = cmd;
+    if (cmd == 'a')
+    {
+      servo1.write(90);
+      servo2.write(90);
+    }
+    else if (cmd == 'b')
+    {
+      servo1.write(0);
+      servo2.write(0);
+    }
+    else if (cmd == 'c')
+    {
+      digitalWrite(CAMERAPIN, HIGH);
+    }
+    else if (cmd == 'd')
+    {
+      digitalWrite(CAMERAPIN, LOW);
+    }
+    else if (cmd == 'e')
+    {
+      sequenceend = true;
+    }
+  }
+  if(Serial.available()){
+    char cmd = (char)Serial.read();
+    if (cmd == 'a')
+    {   
+      servo1.write(90);
+      servo2.write(90);
+    }
+    else if (cmd == 'b')
+    {
+      servo1.write(0);
+      servo2.write(0);
+    }
+    else if (cmd == 'c')
+    {
+      digitalWrite(CAMERAPIN, HIGH);
+    }
+    else if (cmd == 'd')
+    {
+      digitalWrite(CAMERAPIN, LOW);
+    }
+    else if (cmd == 'e')
+    {
+      sequenceend = true;
+    }
+  }
   if(lflag){
   if (kaisan)
   {
