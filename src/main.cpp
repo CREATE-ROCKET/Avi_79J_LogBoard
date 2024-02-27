@@ -44,6 +44,8 @@ bool kaisantimerflag = false;
 bool kemuriicmflag = false;
 bool kemuritenkatyuusi = false;
 bool sequenceend = false;
+bool islogging = false;
+bool timerstartflag=true;
 int rcount = 0;
 int bx = 0;
 int bh = 0;
@@ -53,13 +55,19 @@ int tikatikasyuuki = 500;
 int k;
 int kasokudoc;
 int kemurikasokudoc;
+int logcount=0;
+unsigned long starttime;
+unsigned long logtime;
 u_int8_t LPS25_data[3] = {0, 0, 0};
+int16_t ICM_data[6]={0,0,0,0,0,0};
 u_int8_t last_modified_LPS25_data[3] = {0, 0, 0};
 hw_timer_t *timer = NULL;
 u_int64_t heikina = 0;
+u_int32_t SpiFlashLatestAddress = 0;
 int frmax = 200;
 char canreceive = 0;
 bool kemurisend = false;
+int sensorcount = 0;
 IRAM_ATTR void counter() // 1msで呼ばれる
 {
   if (sequenceend)
@@ -68,6 +76,14 @@ IRAM_ATTR void counter() // 1msで呼ばれる
   }
   else
   {
+    // 以下センサーの値を取得
+    sensorcount++;
+    if(sensorcount>=19){
+      lps.Get(LPS25_data);
+      log();
+      sensorcount=0;
+    }
+    //以上センサーの値を取得
     if (risyou)
     {
       if (kaisantimerflag)
@@ -86,7 +102,6 @@ IRAM_ATTR void counter() // 1msで呼ばれる
         // 以下lpsの条件
         if (pcount % 20 == 1)
         {
-          lps.Get(LPS25_data);
           for (int i = 0; i < 3; i++)
           {
             LPS25_data[i] = LPS25_data[i] * (1 - (20 / (frmax * 1000)) + last_modified_LPS25_data[i] * (20 / (frmax * 1000)));
@@ -117,8 +132,6 @@ IRAM_ATTR void counter() // 1msで呼ばれる
       }
       if (kaisan&&kemuriicmflag)
       {
-        int16_t ICM_data[6];
-        icm.Get(ICM_data);
         heikina += ((ICM_data[0]) * (ICM_data[0]) + (ICM_data[1]) * (ICM_data[1]) + (ICM_data[2]) * (ICM_data[2])) * 16 * 16 / 16384 / 16384;
         if (pcount % 20 == 19)
         {
@@ -179,8 +192,6 @@ IRAM_ATTR void counter() // 1msで呼ばれる
       if (icmflag)
       {
         // 以下icmの条件
-        int16_t ICM_data[6];
-        icm.Get(ICM_data);
         heikina += ((ICM_data[0]) * (ICM_data[0]) + (ICM_data[1]) * (ICM_data[1]) + (ICM_data[2]) * (ICM_data[2])) * 16 * 16 / 16384 / 16384;
         if (pcount % 20 == 19)
         {
@@ -261,28 +272,39 @@ void setup()
 void erase(){
   flash.erase();
 }
+void log(){
+  uint8_t data[256];
+  if(timerstartflag){
+    starttime = millis();
+    timerstartflag = false;
+  }
+  logtime = millis()-starttime;
+  for(int i=0;i<4;i++){
+    data[32*logcount+i]=0xFF&logtime>>(8*i);
+  }
+  for(int i=4;i<7;i++){
+    data[32*logcount+i]=0xFF&LPS25_data[i-4];
+  }
+  for(int i=7;i<13;i++){
+    data[32*logcount+i]=0xFF&ICM_data[i-7]>>8;
+  }
+  logcount++;
+  if(logcount>=8){
+    logcount=0;
+    flash.write(SpiFlashLatestAddress,data);
+    SpiFlashLatestAddress+=0x100;
+  }
+}
 void loop()
 {
   if (!lflag)
   {
-    // Serial.print(bh);
-    // Serial.print(",");
-    // Serial.print(bc);
-    // Serial.print(",");
-    // Serial.print(kiroku);
-    // Serial.print(",");
-    // Serial.println(pcount);
     Serial.print(icm.WhoAmI());
-    // Serial.print(",");
-    // Serial.print(kasokudoc);
     Serial.println();
-    // Serial.println(icm.WhoAmI());
     delay(10);
   }else{
-    //Serial.print(icm.WhoAmI());
       delay(100);
   }
-  //Serial.print(canreceive);
   if (CAN.available())
   {
     char cmd = (char)CAN.read();
@@ -308,6 +330,12 @@ void loop()
     else if (cmd == 'e')
     {
       sequenceend = true;
+    }else if(cmd=='f'){
+      erase();
+    }else if(cmd=='g'){
+      islogging = true;
+    }else if(cmd=='h'){
+      islogging = false;
     }
   }
   if(Serial.available()){
@@ -333,6 +361,8 @@ void loop()
     else if (cmd == 'e')
     {
       sequenceend = true;
+    }else if(cmd=='f'){
+      flash.erase();
     }
   }
   if(lflag){
