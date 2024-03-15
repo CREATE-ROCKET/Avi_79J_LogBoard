@@ -5,6 +5,8 @@
 #include <SPICREATE.h>
 #include <CAN/CAN.h>
 #include <ESP32Servo.h>
+#include "soc/soc.h"
+#include "soc/rtc_cntl_reg.h"
 // put function declarations here:
 #define led_pin 22 // 22
 #define SPICLOCK 33
@@ -45,7 +47,7 @@ bool kemuriicmflag = false;
 bool kemuritenkatyuusi = false;
 bool sequenceend = false;
 bool islogging = false;
-bool timerstartflag=true;
+bool timerstartflag = true;
 int rcount = 0;
 int bx = 0;
 int bh = 0;
@@ -55,11 +57,11 @@ int tikatikasyuuki = 500;
 int k;
 int kasokudoc;
 int kemurikasokudoc;
-int logcount=0;
+int logcount = 0;
 unsigned long starttime;
 unsigned long logtime;
 u_int8_t LPS25_data[3] = {0, 0, 0};
-int16_t ICM_data[6]={0,0,0,0,0,0};
+int16_t ICM_data[6] = {0, 0, 0, 0, 0, 0};
 u_int8_t last_modified_LPS25_data[3] = {0, 0, 0};
 hw_timer_t *timer = NULL;
 u_int64_t heikina = 0;
@@ -68,6 +70,36 @@ int frmax = 200;
 char canreceive = 0;
 bool kemurisend = false;
 int sensorcount = 0;
+int kakudo=90;
+void logroutine()
+{
+  uint8_t data[256];
+  if (timerstartflag)
+  {
+    starttime = millis();
+    timerstartflag = false;
+  }
+  logtime = millis() - starttime;
+  for (int i = 0; i < 4; i++)
+  {
+    data[32 * logcount + i] = 0xFF & logtime >> (8 * i);
+  }
+  for (int i = 4; i < 7; i++)
+  {
+    data[32 * logcount + i] = 0xFF & LPS25_data[i - 4];
+  }
+  for (int i = 7; i < 13; i++)
+  {
+    data[32 * logcount + i] = 0xFF & ICM_data[i - 7] >> 8;
+  }
+  logcount++;
+  if (logcount >= 8)
+  {
+    logcount = 0;
+    flash.write(SpiFlashLatestAddress, data);
+    SpiFlashLatestAddress += 0x100;
+  }
+}
 IRAM_ATTR void counter() // 1msで呼ばれる
 {
   if (sequenceend)
@@ -78,12 +110,17 @@ IRAM_ATTR void counter() // 1msで呼ばれる
   {
     // 以下センサーの値を取得
     sensorcount++;
-    if(sensorcount>=19){
-      lps.Get(LPS25_data);
-      log();
-      sensorcount=0;
+    if (sensorcount >= 19)
+    {
+      if (islogging)
+      {
+        lps.Get(LPS25_data);
+        icm.Get(ICM_data);
+        logroutine();
+      }
+      sensorcount = 0;
     }
-    //以上センサーの値を取得
+    // 以上センサーの値を取得
     if (risyou)
     {
       if (kaisantimerflag)
@@ -130,18 +167,18 @@ IRAM_ATTR void counter() // 1msで呼ばれる
           lcount++;
         }
       }
-      if (kaisan&&kemuriicmflag)
+      if (kaisan && kemuriicmflag)
       {
         heikina += ((ICM_data[0]) * (ICM_data[0]) + (ICM_data[1]) * (ICM_data[1]) + (ICM_data[2]) * (ICM_data[2])) * 16 * 16 / 16384 / 16384;
         if (pcount % 20 == 19)
         {
-          if (heikina / 20 <  9.8 * 9.8/100)
+          if (heikina / 20 < 9.8 * 9.8 / 100)
           {
             kemurikasokudoc++;
             if (kemurikasokudoc > 2)
             { // 本番は50
               kemuritenkatyuusi = true;
-              tikatikasyuuki=250;
+              tikatikasyuuki = 250;
             }
           }
           else
@@ -217,7 +254,7 @@ IRAM_ATTR void counter() // 1msで呼ばれる
     if (pcount >= tikatikasyuuki)
     {
       pcount = 0;
-      if ((lflag && !kaisan)||kemuritenkatyuusi)
+      if ((lflag && !kaisan) || kemuritenkatyuusi)
       {
         if (lflagl)
         {
@@ -244,9 +281,11 @@ IRAM_ATTR void counter() // 1msで呼ばれる
     }
   }
 }
+
 void setup()
 {
   // put your setup code here, to run once:
+  WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);
   pinMode(led_pin, OUTPUT);
   pinMode(CAMERAPIN, OUTPUT);
   digitalWrite(led_pin, HIGH);
@@ -265,89 +304,74 @@ void setup()
   CAN.setPins(CAN_RX, CAN_TX);
   CAN.begin(100E3);
   servo1.attach(14);
-  servo1.write(0);
+  servo1.write(90);
   servo2.attach(16);
-  servo2.write(0);
+  servo2.write(90);
 }
-void erase(){
+void erase()
+{
   flash.erase();
-}
-void log(){
-  uint8_t data[256];
-  if(timerstartflag){
-    starttime = millis();
-    timerstartflag = false;
-  }
-  logtime = millis()-starttime;
-  for(int i=0;i<4;i++){
-    data[32*logcount+i]=0xFF&logtime>>(8*i);
-  }
-  for(int i=4;i<7;i++){
-    data[32*logcount+i]=0xFF&LPS25_data[i-4];
-  }
-  for(int i=7;i<13;i++){
-    data[32*logcount+i]=0xFF&ICM_data[i-7]>>8;
-  }
-  logcount++;
-  if(logcount>=8){
-    logcount=0;
-    flash.write(SpiFlashLatestAddress,data);
-    SpiFlashLatestAddress+=0x100;
-  }
 }
 void loop()
 {
-  if (!lflag)
-  {
-    Serial.print(icm.WhoAmI());
-    Serial.println();
-    delay(10);
-  }else{
-      delay(100);
-  }
   if (CAN.available())
   {
     char cmd = (char)CAN.read();
+    Serial.println(cmd);
     canreceive = cmd;
     if (cmd == 'a')
-    {
-      servo1.write(90);
+    { // クローズ
+      servo1.write(kakudo);
       servo2.write(90);
     }
     else if (cmd == 'b')
-    {
+    { // オープン
       servo1.write(0);
       servo2.write(0);
     }
     else if (cmd == 'c')
     {
-      digitalWrite(CAMERAPIN, HIGH);
+      kakudo++;
     }
     else if (cmd == 'd')
     {
-      digitalWrite(CAMERAPIN, LOW);
+      kakudo--;
     }
     else if (cmd == 'e')
     {
-      sequenceend = true;
-    }else if(cmd=='f'){
+      kakudo=90;
+    }
+    else if (cmd == 'f')
+    {
       erase();
-    }else if(cmd=='g'){
+    }
+    else if (cmd == 'g')
+    {
       islogging = true;
-    }else if(cmd=='h'){
+    }
+    else if (cmd == 'h')
+    {
       islogging = false;
+    }else if(cmd=='i'){
+      digitalWrite(CAMERAPIN, HIGH);
+    }else if(cmd=='j'){
+      digitalWrite(CAMERAPIN, LOW);
     }
   }
-  if(Serial.available()){
+  if (Serial.available())
+  {
     char cmd = (char)Serial.read();
+    Serial.println(cmd);
     if (cmd == 'a')
-    {   
+    {
       servo1.write(90);
+      delay(500);
       servo2.write(90);
     }
     else if (cmd == 'b')
     {
       servo1.write(0);
+      delay(500);
       servo2.write(0);
     }
     else if (cmd == 'c')
@@ -361,20 +385,23 @@ void loop()
     else if (cmd == 'e')
     {
       sequenceend = true;
-    }else if(cmd=='f'){
+    }
+    else if (cmd == 'f')
+    {
       flash.erase();
     }
   }
-  if(lflag){
-  if (kaisan)
+  if (lflag)
   {
-    servo1.write(90);
-    servo2.write(90); // ここで開傘
-  }
-  if (kemurisend)
-  {
-    CAN.sendPacket(0x13, 'f');
-    kemurisend = false;
-  }
+    if (kaisan)
+    {
+      servo1.write(90);
+      servo2.write(90); // ここで開傘
+    }
+    if (kemurisend)
+    {
+      CAN.sendPacket(0x13, 'i');
+      kemurisend = false;
+    }
   }
 }
