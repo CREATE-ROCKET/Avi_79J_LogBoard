@@ -29,8 +29,6 @@ uint8_t count = 0;
 int pcount = 0;
 uint8_t lcount = 0;
 CAN_CREATE CAN;
-u_int8_t tx[256];
-u_int8_t rx[256];
 int kiroku;
 Servo servo1;
 Servo servo2;
@@ -41,6 +39,7 @@ bool lflag = false;
 bool lflagl = true;
 bool lpsflag = false;
 bool icmflag = false;
+bool sensorgetflag = true;
 bool kaisanlpsflag = false;
 bool kaisantimerflag = false;
 bool kemuriicmflag = false;
@@ -48,6 +47,7 @@ bool kemuritenkatyuusi = false;
 bool sequenceend = false;
 bool islogging = false;
 bool timerstartflag = true;
+bool sequencestartflag = false;
 int rcount = 0;
 int bx = 0;
 int bh = 0;
@@ -66,6 +66,9 @@ u_int8_t last_modified_LPS25_data[3] = {0, 0, 0};
 hw_timer_t *timer = NULL;
 u_int64_t heikina = 0;
 u_int32_t SpiFlashLatestAddress = 0;
+u_int8_t data[256];
+bool datalogflag=false;
+int datacount = 0;
 int frmax = 200;
 char canreceive = 0;
 bool kemurisend = false;
@@ -73,7 +76,6 @@ int sensorcount = 0;
 int kakudo=90;
 void logroutine()
 {
-  uint8_t data[256];
   if (timerstartflag)
   {
     starttime = millis();
@@ -82,18 +84,22 @@ void logroutine()
   logtime = millis() - starttime;
   for (int i = 0; i < 4; i++)
   {
-    data[32 * logcount + i] = 0xFF & logtime >> (8 * i);
+    data[16 * logcount + i] = 0xFF & logtime >> (8 * i);
+    //Serial.println(data[32 * logcount + i]);
   }
   for (int i = 4; i < 7; i++)
   {
-    data[32 * logcount + i] = 0xFF & LPS25_data[i - 4];
+    data[16 * logcount + i] = 0xFF & LPS25_data[i - 4];
   }
   for (int i = 7; i < 13; i++)
   {
-    data[32 * logcount + i] = 0xFF & ICM_data[i - 7] >> 8;
+    data[16 * logcount + i] = 0xFF & ICM_data[i - 7] >> 8;
+  }
+  for(int i=13;i<16;i++){
+    data[16 * logcount + i] = 0xFF & 77;
   }
   logcount++;
-  if (logcount >= 8)
+  if (logcount >= 16)
   {
     logcount = 0;
     flash.write(SpiFlashLatestAddress, data);
@@ -102,23 +108,25 @@ void logroutine()
 }
 IRAM_ATTR void counter() // 1msで呼ばれる
 {
-  if (sequenceend)
+  if (sequenceend||!sequencestartflag)
   {
-    digitalWrite(led_pin, HIGH);
+    digitalWrite(led_pin, LOW);
   }
   else
   {
     // 以下センサーの値を取得
+    if(sensorgetflag){
     sensorcount++;
+    icm.Get(ICM_data);
     if (sensorcount >= 19)
     {
+      lps.Get(LPS25_data);
       if (islogging)
       {
-        lps.Get(LPS25_data);
-        icm.Get(ICM_data);
-        logroutine();
+         datalogflag=true;
       }
       sensorcount = 0;
+    }
     }
     // 以上センサーの値を取得
     if (risyou)
@@ -206,7 +214,7 @@ IRAM_ATTR void counter() // 1msで呼ばれる
           if (lcount == 5)
           {
             kiroku = (bh - bx / 5);
-            if ((bh - bx / 5) >= 1 && bh != 0)
+            if ((bh - bx / 5) >= 1 && bh != 0)//ここを変える
             {
               bc++;
               if (bc > 4)
@@ -232,7 +240,7 @@ IRAM_ATTR void counter() // 1msで呼ばれる
         heikina += ((ICM_data[0]) * (ICM_data[0]) + (ICM_data[1]) * (ICM_data[1]) + (ICM_data[2]) * (ICM_data[2])) * 16 * 16 / 16384 / 16384;
         if (pcount % 20 == 19)
         {
-          if (heikina / 20 > 4 * 9.8 * 9.8)
+          if (heikina / 20 > 4 * 9.8 * 9.8)//ここを変える
           {
             kasokudoc++;
             if (kasokudoc > 2)
@@ -307,6 +315,11 @@ void setup()
   servo1.write(90);
   servo2.attach(16);
   servo2.write(90);
+  for(int i=0;i<256;i++){
+    data[i]=0;
+  }
+  Serial.println("Start");
+  sequencestartflag = true;
 }
 void erase()
 {
@@ -365,13 +378,11 @@ void loop()
     if (cmd == 'a')
     {
       servo1.write(90);
-      delay(500);
       servo2.write(90);
     }
     else if (cmd == 'b')
     {
       servo1.write(0);
-      delay(500);
       servo2.write(0);
     }
     else if (cmd == 'c')
@@ -389,6 +400,33 @@ void loop()
     else if (cmd == 'f')
     {
       flash.erase();
+    }else if(cmd=='r'){
+      Serial.print("data until memory");
+      Serial.println(SpiFlashLatestAddress);
+      if(sequenceend){
+      for(int k=0;k<=SpiFlashLatestAddress;k+=0x100){
+        u_int8_t rx[256];
+        flash.read(k, rx); // flash1.read(0, rx); ???
+        // 読み込んだデータをシリアルで表示
+        for (int i = 0; i < 16; i++)
+        {
+          for(int j=0;j<16;j++){
+            Serial.print(rx[i*16+j]);
+            Serial.print(",");
+          }
+          Serial.println(" ");
+        }
+      }
+    }
+    }else if(cmd=='l'){
+      islogging=true;
+    }else if(cmd=='@'){
+      for(int i=0;i<256;i++){
+        Serial.print(data[i]);
+        data[i]=i;
+      }
+      Serial.println("datalog");
+      flash.write(SpiFlashLatestAddress, data);
     }
   }
   if (lflag)
@@ -403,5 +441,10 @@ void loop()
       CAN.sendPacket(0x13, 'i');
       kemurisend = false;
     }
+  }
+  if(datalogflag){
+    Serial.println("datalog");
+    logroutine();
+    datalogflag=false;
   }
 }
