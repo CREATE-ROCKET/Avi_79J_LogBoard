@@ -49,6 +49,8 @@ bool timerstartflag = true;
 bool sequencestartflag = false;
 bool risyoukentisousinflag = false;
 bool standby = false;
+bool icmdatagetflag=false;
+bool lpsdatagetflag=false; 
 int bx = 0;
 int bh = 0;
 int bc = 0;
@@ -58,6 +60,7 @@ int k;
 int kasokudoc;
 int kemurikasokudoc;
 int logcount = 0;
+char precmd=0;
 unsigned long starttime;
 unsigned long logtime;
 unsigned long risyoutime;
@@ -134,14 +137,16 @@ IRAM_ATTR void counter() // 1msで呼ばれる
     if (sensorgetflag)
     {
       sensorcount++;
-      icm.Get(ICM_data, ICMraw);
+      //icm.Get(ICM_data, ICMraw);
+      icmdatagetflag=true;
       if (islogging)
       {
         datalogflag = true;
       }
       if (sensorcount >= 19)
       {
-        lps.Get(LPS25_data);
+        //lps.Get(LPS25_data);
+        lpsdatagetflag=true;
         sensorcount = 0;
       }
     }
@@ -306,7 +311,7 @@ IRAM_ATTR void counter() // 1msで呼ばれる
 void setup()
 {
   // put your setup code here, to run once:
-  WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);
+  //WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);
   pinMode(led_pin, OUTPUT);
   pinMode(CAMERAPIN, OUTPUT);
   digitalWrite(led_pin, HIGH);
@@ -437,7 +442,7 @@ void loop()
         cansend("ERROR", 5);
       }
     }
-  }
+  }else{
   if (Serial.available())
   {
     char cmd = (char)Serial.read();
@@ -516,6 +521,12 @@ void loop()
       {
         Serial.println(ICM_data[i]);
       }
+    }else if(cmd=='i'){
+      CAN.sendPacket(0x13, 'i');
+    }else if(cmd=='x'){
+      CAN.sendPacket(0x13, 'x');
+    }else if(cmd=='u'){
+      kemurisend=true;
     }
   }
   if (risyou && !risyoukentisousinflag)
@@ -536,10 +547,19 @@ void loop()
       kemurisend = false;
     }
   }
+  if(lpsdatagetflag){
+    lps.Get(LPS25_data);
+    lpsdatagetflag=false;    
+  }
+  if(icmdatagetflag){
+    icm.Get(ICM_data, ICMraw);
+    icmdatagetflag=false;
+  }
   if (datalogflag)
   {
     // Serial.println("datalog");
     logroutine();
     datalogflag = false;
+  }
   }
 }
